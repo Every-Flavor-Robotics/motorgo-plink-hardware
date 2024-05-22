@@ -1,0 +1,115 @@
+(footprint "3 phase motor" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -5.08 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 0a0e35bd-b357-4094-a13e-967ee6d5f069)
+  )
+  (fp_text value "3 phase motor" (at 0 11.2 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3bf5fc1f-7c8b-47fa-b150-4ace68dd8e03)
+  )
+  (fp_text user "A  B  C" (at -5.824105 8.033063 unlocked) (layer "B.SilkS")
+      (effects (font (size 2 2) (thickness 0.25)) (justify left bottom))
+    (tstamp 43899820-31af-4a79-bbe3-a80d1abb7c05)
+  )
+  (fp_text user "A  B  C" (at -5.825895 8.033063 unlocked) (layer "F.SilkS")
+      (effects (font (size 2 2) (thickness 0.25)) (justify left bottom))
+    (tstamp 02672aab-75e1-4019-9407-bf251f56f55f)
+  )
+  (fp_text user "${REFERENCE}" (at 0 12.7 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c90f3788-c1bb-4a0a-bc6b-fb5f3ef2ddba)
+  )
+  (fp_line (start 5.08 2.54) (end -5.08 2.54)
+    (stroke (width 0.5) (type default)) (layer "B.SilkS") (tstamp 8b96c23e-2d1d-46ac-8784-5aa0a1a6c889))
+  (fp_arc (start -5.08 2.54) (mid -6.876051 1.796051) (end -7.62 0)
+    (stroke (width 0.5) (type default)) (layer "B.SilkS") (tstamp c389b965-8a8e-4fa0-befd-19c2e53582c2))
+  (fp_arc (start -2.52 -0.01) (mid -3.263948 1.786052) (end -5.06 2.53)
+    (stroke (width 0.5) (type default)) (layer "B.SilkS") (tstamp 3c5cece8-b6e4-434f-ae79-3c01be62e8db))
+  (fp_arc (start -0.01 2.53) (mid -1.806051 1.786051) (end -2.55 -0.01)
+    (stroke (width 0.5) (type default)) (layer "B.SilkS") (tstamp 72af6c57-54ca-4cfc-89b1-f00611c6c8f9))
+  (fp_arc (start 2.53 -0.01) (mid 1.786052 1.786052) (end -0.01 2.53)
+    (stroke (width 0.5) (type default)) (layer "B.SilkS") (tstamp ffe60bb2-772a-4973-afb4-109b0887427a))
+  (fp_arc (start 5.016049 2.523949) (mid 3.219998 1.78) (end 2.476049 -0.016051)
+    (stroke (width 0.5) (type default)) (layer "B.SilkS") (tstamp ed9e9848-a12d-48bc-951e-18f904d34a67))
+  (fp_arc (start 7.62 0) (mid 6.876051 1.796051) (end 5.08 2.54)
+    (stroke (width 0.5) (type default)) (layer "B.SilkS") (tstamp 56eda368-3f8c-428d-aa8d-9f2bcd4e6eca))
+  (fp_poly
+    (pts
+      (xy -2.561334 0.580985)
+      (xy -3.781334 2.380985)
+      (xy -2.541334 2.680985)
+      (xy -1.311334 2.370985)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "B.SilkS") (tstamp f37fae29-b252-48fa-87d8-0f12ece58fb7))
+  (fp_poly
+    (pts
+      (xy 2.498666 0.570985)
+      (xy 1.278666 2.370985)
+      (xy 2.518666 2.670985)
+      (xy 3.748666 2.360985)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 5b7940d5-af14-41ef-a89f-6227d126c6e6))
+  (fp_line (start -5.08 2.54) (end 5.08 2.54)
+    (stroke (width 0.5) (type default)) (layer "F.SilkS") (tstamp 2dd02f05-abb9-472e-a450-8d900371788c))
+  (fp_arc (start -5.05 2.54) (mid -6.846051 1.796051) (end -7.59 0)
+    (stroke (width 0.5) (type default)) (layer "F.SilkS") (tstamp 5814217f-06dd-4c01-9b8c-edbe70d036e6))
+  (fp_arc (start -2.51 0) (mid -3.253948 1.796052) (end -5.05 2.54)
+    (stroke (width 0.5) (type default)) (layer "F.SilkS") (tstamp 88a7bcfc-21bb-443a-ba4a-b4ae7825a7bc))
+  (fp_arc (start 0 2.54) (mid -1.796051 1.796051) (end -2.54 0)
+    (stroke (width 0.5) (type default)) (layer "F.SilkS") (tstamp 04ba2320-d0d4-4faf-8f04-b208cf3d7148))
+  (fp_arc (start 2.54 0) (mid 1.796052 1.796052) (end 0 2.54)
+    (stroke (width 0.5) (type default)) (layer "F.SilkS") (tstamp 25717a2c-6f3a-412d-929c-ff0a73fe38d2))
+  (fp_arc (start 5.026049 2.533949) (mid 3.229998 1.79) (end 2.486049 -0.006051)
+    (stroke (width 0.5) (type default)) (layer "F.SilkS") (tstamp d94fbef3-419f-49f2-9052-c62952076c92))
+  (fp_arc (start 7.566049 -0.006051) (mid 6.822101 1.790001) (end 5.026049 2.533949)
+    (stroke (width 0.5) (type default)) (layer "F.SilkS") (tstamp b8b58818-9777-4697-8c4a-cda382ee38b9))
+  (fp_poly
+    (pts
+      (xy -2.53 0.54)
+      (xy -3.75 2.34)
+      (xy -2.51 2.64)
+      (xy -1.28 2.33)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 42a00228-00fa-42ef-bafe-4d81af6e7ace))
+  (fp_poly
+    (pts
+      (xy 2.53 0.53)
+      (xy 1.31 2.33)
+      (xy 2.55 2.63)
+      (xy 3.78 2.32)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 60c63137-36bc-42ee-bca8-81c4588fe584))
+  (pad "1" thru_hole custom (at -5.08 0) (size 3.5 3.5) (drill 2) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+    ) (tstamp 22b92d28-93c0-4281-9cb1-d8691b360e28))
+  (pad "2" thru_hole custom (at 0 0) (size 3.5 3.5) (drill 2) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+    ) (tstamp b0d49069-e98e-4394-bc5b-8349bf0eefaa))
+  (pad "3" thru_hole custom (at 5.08 0) (size 3.5 3.5) (drill 2) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+    ) (tstamp 901f6525-984d-452b-8c32-e2b08f8750a8))
+  (group "" (id 6f3b9017-4efa-44bf-b04c-4c52a02dce1b)
+    (members
+      3c5cece8-b6e4-434f-ae79-3c01be62e8db
+      43899820-31af-4a79-bbe3-a80d1abb7c05
+      56eda368-3f8c-428d-aa8d-9f2bcd4e6eca
+      72af6c57-54ca-4cfc-89b1-f00611c6c8f9
+      8b96c23e-2d1d-46ac-8784-5aa0a1a6c889
+      c389b965-8a8e-4fa0-befd-19c2e53582c2
+      ed9e9848-a12d-48bc-951e-18f904d34a67
+      ffe60bb2-772a-4973-afb4-109b0887427a
+    )
+  )
+)

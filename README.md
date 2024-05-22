@@ -20,3 +20,7 @@ schematic high level is mostly done.
 #### Encoder and qwicc connectors: 
 
 ![image](https://github.com/Every-Flavor-Robotics/motorgo-plink/assets/34074861/1e3b02f8-6803-4258-afa5-839710d56c41)
+
+#### board rendering:
+
+![image](https://github.com/Every-Flavor-Robotics/motorgo-plink/assets/34074861/b69b2b4d-bd2f-40a7-afc3-a3c58e929729)

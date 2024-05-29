@@ -4932,6 +4932,14 @@
     (property "Sheetfile" "LISM6.kicad_sch" (at 157.48 167.5896 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "SCL" input (at 157.48 133.35 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 41048e1c-d9f9-4abe-a4f0-5b8235f8369b)
+    )
+    (pin "SDA" input (at 157.48 135.89 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 968a6657-09b6-4092-bb8b-ebd135bffdf6)
+    )
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "8"))
@@ -4985,6 +4993,14 @@
     )
     (property "Field5" "" (at 158.115 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "scl_pd" input (at 158.115 97.79 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ffec30df-4eba-4608-bc11-a7283a32418f)
+    )
+    (pin "sda_pd" input (at 158.115 100.33 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b3445d43-2b25-48d8-aa72-27d7d50ebebf)
     )
     (instances
       (project "motorgo_plink"

@@ -967,7 +967,7 @@
           (reference "#PWR055") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -1019,7 +1019,7 @@
           (reference "J12") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "J9") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )
@@ -1047,7 +1047,7 @@
           (reference "#PWR045") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -1099,7 +1099,7 @@
           (reference "J13") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "J2") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -1127,7 +1127,7 @@
           (reference "#PWR017") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -1179,7 +1179,7 @@
           (reference "J12") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "J1") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -1214,7 +1214,7 @@
           (reference "R26") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "R5") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -1242,7 +1242,7 @@
           (reference "#PWR020") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -1270,7 +1270,7 @@
           (reference "#PWR055") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -1285,7 +1285,7 @@
     (property "Value" "I2C_STANDARDQWIIC" (at 29.21 136.525 90)
       (effects (font (size 1.143 1.143)) (justify right) hide)
     )
-    (property "Footprint" "aa_sparkfun_connectors:1X04_1MM_RA" (at 27.94 130.175 0)
+    (property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (at 27.94 130.175 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (at 40.64 130.175 0)
@@ -1307,7 +1307,7 @@
           (reference "J3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "J14") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1335,7 +1335,7 @@
           (reference "#PWR020") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -1370,7 +1370,7 @@
           (reference "R29") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "R36") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -1398,7 +1398,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -1426,7 +1426,7 @@
           (reference "#PWR018") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -1454,7 +1454,7 @@
           (reference "#PWR040") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -1482,7 +1482,7 @@
           (reference "#PWR022") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -1497,7 +1497,7 @@
     (property "Value" "I2C_STANDARDQWIIC" (at 55.88 136.525 90)
       (effects (font (size 1.143 1.143)) (justify right) hide)
     )
-    (property "Footprint" "aa_sparkfun_connectors:1X04_1MM_RA" (at 54.61 130.175 0)
+    (property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (at 54.61 130.175 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (at 67.31 130.175 0)
@@ -1554,7 +1554,7 @@
           (reference "R29") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "R15") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -1582,7 +1582,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -1617,7 +1617,7 @@
           (reference "R28") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "R35") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -1632,7 +1632,7 @@
     (property "Value" "I2C_STANDARDQWIIC" (at 104.775 136.525 90)
       (effects (font (size 1.143 1.143)) (justify right) hide)
     )
-    (property "Footprint" "aa_sparkfun_connectors:1X04_1MM_RA" (at 103.505 130.175 0)
+    (property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (at 103.505 130.175 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (at 116.205 130.175 0)
@@ -1654,7 +1654,7 @@
           (reference "J5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "J22") (unit 1)
+          (reference "J19") (unit 1)
         )
       )
     )
@@ -1682,7 +1682,7 @@
           (reference "#PWR045") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -1710,7 +1710,7 @@
           (reference "#PWR021") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -1725,7 +1725,7 @@
     (property "Value" "I2C_STANDARDQWIIC" (at 78.105 136.525 90)
       (effects (font (size 1.143 1.143)) (justify right) hide)
     )
-    (property "Footprint" "aa_sparkfun_connectors:1X04_1MM_RA" (at 76.835 130.175 0)
+    (property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" (at 76.835 130.175 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (at 89.535 130.175 0)
@@ -1747,7 +1747,7 @@
           (reference "J3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "J20") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )
@@ -1782,7 +1782,7 @@
           (reference "R28") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "R14") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -1810,7 +1810,7 @@
           (reference "#PWR044") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -1838,7 +1838,7 @@
           (reference "#PWR022") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -1866,7 +1866,7 @@
           (reference "#PWR017") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -1918,7 +1918,7 @@
           (reference "J13") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "J10") (unit 1)
+          (reference "J20") (unit 1)
         )
       )
     )
@@ -1946,7 +1946,7 @@
           (reference "#PWR040") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -1974,7 +1974,7 @@
           (reference "#PWR018") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -2002,7 +2002,7 @@
           (reference "#PWR021") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -2037,7 +2037,7 @@
           (reference "R27") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/26debae5-aaf8-489a-bc0c-9aa15882d8f6"
-          (reference "R6") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )

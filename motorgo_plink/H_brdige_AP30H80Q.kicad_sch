@@ -952,13 +952,13 @@
   (symbol (lib_id "LCSC_imports:DRV8874PWPR") (at 141.605 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 040d7dfb-b4c9-48e1-bba7-d295cbd8328c)
-    (property "Reference" "U3" (at 141.605 76.2 0)
+    (property "Reference" "U4" (at 141.605 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8874PWPR" (at 141.605 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "kicad_lceda:HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP" (at 141.605 82.423 0)
+    (property "Footprint" "LCSC_parts:HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP" (at 141.605 82.423 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302221400_Texas-Instruments-DRV8874PWPR_C1855818.pdf" (at 141.605 87.503 0)
@@ -990,16 +990,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "U3") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "U2") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
           (reference "U4") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+          (reference "U3") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
           (reference "U5") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -1008,13 +1008,13 @@
   (symbol (lib_id "Device:R") (at 166.37 76.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 176c5a0c-4fc4-4921-9705-6483ace9c759)
-    (property "Reference" "R29" (at 168.275 76.2 0)
+    (property "Reference" "R13" (at 168.275 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 168.275 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 164.592 76.835 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 164.592 76.835 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 166.37 76.835 0)
@@ -1025,16 +1025,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "R29") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "R3") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "R7") (unit 1)
+          (reference "R15") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "R9") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -1043,13 +1043,13 @@
   (symbol (lib_id "Device:R") (at 119.38 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d17d84b-e3ea-46f0-b18f-06feada396be)
-    (property "Reference" "Rp1" (at 114.3 119.38 0)
+    (property "Reference" "Rp2" (at 114.3 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.83k" (at 112.395 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 117.602 120.015 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 117.602 120.015 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 119.38 120.015 0)
@@ -1060,10 +1060,10 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "Rp1") (unit 1)
+          (reference "Rp2") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "Rp2") (unit 1)
+          (reference "Rp1") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
           (reference "Rp3") (unit 1)
@@ -1078,7 +1078,7 @@
   (symbol (lib_id "power:+5V") (at 166.37 73.025 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f557ed6-4f49-43a3-a7f7-7770a7df9f32)
-    (property "Reference" "#PWR061" (at 166.37 76.835 0)
+    (property "Reference" "#PWR045" (at 166.37 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 166.37 69.85 0)
@@ -1094,16 +1094,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -1112,13 +1112,13 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 102.235 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 379278c5-9c7b-483f-a6c5-d908834ce479)
-    (property "Reference" "C23" (at 165.735 101.6063 0)
+    (property "Reference" "C8" (at 165.735 101.6063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 165.735 103.5113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 163.83 102.235 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 163.83 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.83 102.235 0)
@@ -1129,16 +1129,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "C23") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "C3") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
           (reference "C8") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+          (reference "C4") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
+          (reference "C12") (unit 1)
+        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "C22") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -1147,7 +1147,7 @@
   (symbol (lib_id "power:GND") (at 159.385 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b023fe4-9605-4f71-b1e3-641490966c63)
-    (property "Reference" "#PWR070" (at 159.385 87.63 0)
+    (property "Reference" "#PWR044" (at 159.385 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.925 81.28 0)
@@ -1163,16 +1163,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -1181,7 +1181,7 @@
   (symbol (lib_id "power:GND") (at 119.38 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 508d744b-f932-47ae-b884-35aa0778b9a4)
-    (property "Reference" "#PWR020" (at 119.38 131.445 0)
+    (property "Reference" "#PWR040" (at 119.38 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.745 128.905 0)
@@ -1197,16 +1197,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -1215,7 +1215,7 @@
   (symbol (lib_id "power:+3V3") (at 108.585 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 530183c5-fd7a-42e7-8deb-d731ac89d5e7)
-    (property "Reference" "#PWR078" (at 108.585 106.68 0)
+    (property "Reference" "#PWR038" (at 108.585 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 108.585 99.695 0)
@@ -1231,16 +1231,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -1249,13 +1249,13 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 174.625 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c29150a-9723-4d5a-88e3-772b3aa5562c)
-    (property "Reference" "C6" (at 177.165 102.87 0)
+    (property "Reference" "C10" (at 177.165 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1000uF" (at 177.165 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 174.625 104.14 0)
+    (property "Footprint" "Capacitor_SMD:C_Elec_10x10.2" (at 174.625 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 174.625 104.14 0)
@@ -1266,16 +1266,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "C6") (unit 1)
+          (reference "C10") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "C5") (unit 1)
+          (reference "C6") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "C20") (unit 1)
+          (reference "C14") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "C25") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -1284,7 +1284,7 @@
   (symbol (lib_id "power:GND") (at 174.625 108.585 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72c09545-4ca7-4503-ace3-faf335195a69)
-    (property "Reference" "#PWR02" (at 174.625 114.935 0)
+    (property "Reference" "#PWR047" (at 174.625 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.625 112.395 0)
@@ -1300,16 +1300,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -1318,13 +1318,13 @@
   (symbol (lib_id "Connector:Conn_01x03_Socket") (at 101.6 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 754b04d6-0069-48a9-8a24-bd76773fd05e)
-    (property "Reference" "J17" (at 102.235 86.36 0)
+    (property "Reference" "J7" (at 102.235 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Socket" (at 97.79 88.265 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 101.6 92.71 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 101.6 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 92.71 0)
@@ -1336,16 +1336,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "J17") (unit 1)
+          (reference "J7") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "J13") (unit 1)
+          (reference "J9") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "J18") (unit 1)
+          (reference "J21") (unit 1)
         )
       )
     )
@@ -1354,13 +1354,13 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cd15de6-e6de-450c-b049-125807b31cfd)
-    (property "Reference" "C19" (at 165.735 95.8913 0)
+    (property "Reference" "C7" (at 165.735 95.8913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 165.735 97.7963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 163.83 97.155 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 163.83 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.83 97.155 0)
@@ -1371,16 +1371,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "C19") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "C1") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
           (reference "C7") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+          (reference "C3") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
+          (reference "C11") (unit 1)
+        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "C21") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1389,13 +1389,13 @@
   (symbol (lib_id "Device:R") (at 111.76 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8188c882-9f34-4bb8-8b65-75b222386376)
-    (property "Reference" "R2" (at 113.665 83.185 0)
+    (property "Reference" "R12" (at 113.665 83.185 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 113.665 85.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 109.982 83.82 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 109.982 83.82 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 83.82 0)
@@ -1406,16 +1406,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "R2") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "R1") (unit 1)
+          (reference "R10") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "R4") (unit 1)
+          (reference "R14") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "R8") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -1424,7 +1424,7 @@
   (symbol (lib_id "power:GND") (at 158.115 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8addbfdc-dc1c-4aaf-a871-b872afa78ad1)
-    (property "Reference" "#PWR09" (at 158.115 93.98 0)
+    (property "Reference" "#PWR043" (at 158.115 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.655 87.63 0)
@@ -1440,16 +1440,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -1458,7 +1458,7 @@
   (symbol (lib_id "power:GND") (at 154.94 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d92cbc0-1c57-4411-9bf6-43fc622e5c69)
-    (property "Reference" "#PWR045" (at 154.94 112.395 0)
+    (property "Reference" "#PWR042" (at 154.94 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 106.68 0)
@@ -1474,16 +1474,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -1514,16 +1514,16 @@
           (reference "#PWR031") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -1532,13 +1532,13 @@
   (symbol (lib_id "Device:C_Small") (at 170.815 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a366d253-12e5-465c-86a2-420bd17e6d2b)
-    (property "Reference" "C2" (at 171.45 85.7313 0)
+    (property "Reference" "C9" (at 171.45 85.7313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" ".022uF" (at 171.45 87.6363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 170.815 89.535 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 170.815 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 170.815 89.535 0)
@@ -1549,16 +1549,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "C2") (unit 1)
+          (reference "C9") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "C18") (unit 1)
+          (reference "C13") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "C24") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -1567,7 +1567,7 @@
   (symbol (lib_id "power:+5V") (at 111.76 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9d21dad-d9c3-4014-a8b0-53a9ae0bab50)
-    (property "Reference" "#PWR065" (at 111.76 81.28 0)
+    (property "Reference" "#PWR039" (at 111.76 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 111.76 73.66 0)
@@ -1583,16 +1583,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -1601,13 +1601,13 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 188.595 128.905 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ced242a7-89fe-4d89-94e3-2de58c09317f)
-    (property "Reference" "J5" (at 189.865 127 0)
+    (property "Reference" "J8" (at 189.865 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 189.865 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 188.595 128.905 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 188.595 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 188.595 128.905 0)
@@ -1618,16 +1618,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "J5") (unit 1)
+          (reference "J8") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "J12") (unit 1)
+          (reference "J6") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "J16") (unit 1)
+          (reference "J10") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "J19") (unit 1)
+          (reference "J22") (unit 1)
         )
       )
     )
@@ -1636,13 +1636,13 @@
   (symbol (lib_id "Device:R") (at 123.19 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d47ac2a2-4d28-4f93-8420-bd80765c7ab8)
-    (property "Reference" "Rmode" (at 125.73 119.38 0)
+    (property "Reference" "Rmode2" (at 125.73 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 125.73 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 121.412 120.015 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 121.412 120.015 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 120.015 0)
@@ -1653,16 +1653,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "Rmode") (unit 1)
+          (reference "Rmode2") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
           (reference "Rmode1") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "Rmode2") (unit 1)
+          (reference "Rmode3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "Rmode3") (unit 1)
+          (reference "Rmode4") (unit 1)
         )
       )
     )
@@ -1671,7 +1671,7 @@
   (symbol (lib_id "power:GND") (at 123.19 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef5fafba-f22d-4b93-8b6a-68de9e7cf633)
-    (property "Reference" "#PWR056" (at 123.19 131.445 0)
+    (property "Reference" "#PWR041" (at 123.19 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.825 128.905 0)
@@ -1687,16 +1687,16 @@
     (instances
       (project "motorgo_plink"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )

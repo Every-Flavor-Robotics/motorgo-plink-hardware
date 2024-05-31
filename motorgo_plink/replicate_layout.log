@@ -1,70 +1,288 @@
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Apr  9 2023, 05:22:13) [MSC v.1934 64 bit (AMD64)]'
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.2
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001EC13380D30>
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U5 as a reference
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U5'
-Located on: ['motor_controls3']
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Apr  9 2023, 05:22:13) [MSC v.1934 64 bit (AMD64)]'
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.2
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001EC13380D30>
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U9 as a reference
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U9'
+Located on: ['motor_controls4']
 With filenames: ['H_brdige_AP30H80Q.kicad_sch']
-With sheet_id:['motor_controls3']
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+With sheet_id:['motor_controls4']
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
 [('U4', ['motor_controls1']), ('U9', ['motor_controls4']), ('U3', ['motor_controls2']), ('U5', ['motor_controls3'])]
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls3', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls4']]
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls3']
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(2523, 80)
-05-30 15:34:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(2084, 80)
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls3', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls4']]
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['motor_controls1'], ['motor_controls2'], ['motor_controls4']]
-on level: ['motor_controls3']
-with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
-05-30 15:34:18 root 332:updating GUI message: 'Preparing for replication'
-05-30 15:34:18 root 337:updating GUI with: 0
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
-05-30 15:34:18 root 332:updating GUI message: 'Replicating footprints'
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['motor_controls1']
-05-30 15:34:18 root 337:updating GUI with: 2
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['motor_controls2']
-05-30 15:34:18 root 337:updating GUI with: 53
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['motor_controls4']
-05-30 15:34:18 root 332:updating GUI message: 'Replicating tracks'
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['motor_controls1']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls1'] :[('m3_EN', 'm1_EN'), ('Net-(U5-CPL)', 'Net-(U4-CPL)'), ('Net-(U5-IPROPI)', 'Net-(U4-IPROPI)'), ('m3_PH', 'm1_PH'), ('Net-(U5-IMODE)', 'Net-(U4-IMODE)'), ('', ''), ('GND', 'GND'), ('Net-(U5-CPH)', 'Net-(U4-CPH)'), ('Net-(U5-nSLEEP)', 'Net-(U4-nSLEEP)'), ('+5V', '+5V'), ('/motor_controls3/motor_out1', '/motor_controls1/motor_out1'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('Net-(U5-nFAULT)', 'Net-(U4-nFAULT)'), ('/motor_controls3/motor_out2', '/motor_controls1/motor_out2'), ('Net-(U5-VCP)', 'Net-(U4-VCP)'), ('Net-(U5-PMODE)', 'Net-(U4-PMODE)')]
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['motor_controls2']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls2'] :[('/motor_controls3/motor_out2', '/motor_controls2/motor_out2'), ('/motor_controls3/motor_out1', '/motor_controls2/motor_out1'), ('Net-(U5-IPROPI)', 'Net-(U3-IPROPI)'), ('Net-(U5-IMODE)', 'Net-(U3-IMODE)'), ('m3_EN', 'm2_EN'), ('Net-(U5-nFAULT)', 'Net-(U3-nFAULT)'), ('', ''), ('Net-(U5-CPH)', 'Net-(U3-CPH)'), ('GND', 'GND'), ('+5V', '+5V'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('Net-(U5-CPL)', 'Net-(U3-CPL)'), ('Net-(U5-nSLEEP)', 'Net-(U3-nSLEEP)'), ('Net-(U5-VCP)', 'Net-(U3-VCP)'), ('m3_PH', 'm2_PH'), ('Net-(U5-PMODE)', 'Net-(U3-PMODE)')]
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['motor_controls4']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls4'] :[('Net-(U5-CPL)', 'Net-(U9-CPL)'), ('Net-(U5-CPH)', 'Net-(U9-CPH)'), ('Net-(U5-PMODE)', 'Net-(U9-PMODE)'), ('', ''), ('GND', 'GND'), ('Net-(U5-IPROPI)', 'Net-(U9-IPROPI)'), ('/motor_controls3/motor_out2', '/motor_controls4/motor_out2'), ('m3_PH', 'm4_PH'), ('+5V', '+5V'), ('/motor_controls3/motor_out1', '/motor_controls4/motor_out1'), ('+3V3', '+3V3'), ('+BATT', '+BATT'), ('m3_EN', 'm4_EN'), ('Net-(U5-VCP)', 'Net-(U9-VCP)'), ('Net-(U5-IMODE)', 'Net-(U9-IMODE)'), ('Net-(U5-nSLEEP)', 'Net-(U9-nSLEEP)'), ('Net-(U5-nFAULT)', 'Net-(U9-nFAULT)')]
-05-30 15:34:18 root 332:updating GUI message: 'Replicating zones'
-05-30 15:34:18 root 337:updating GUI with: 0
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['motor_controls1']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls1'] :[('m3_EN', 'm1_EN'), ('Net-(U5-CPL)', 'Net-(U4-CPL)'), ('Net-(U5-IPROPI)', 'Net-(U4-IPROPI)'), ('m3_PH', 'm1_PH'), ('Net-(U5-IMODE)', 'Net-(U4-IMODE)'), ('', ''), ('GND', 'GND'), ('Net-(U5-CPH)', 'Net-(U4-CPH)'), ('Net-(U5-nSLEEP)', 'Net-(U4-nSLEEP)'), ('+5V', '+5V'), ('/motor_controls3/motor_out1', '/motor_controls1/motor_out1'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('Net-(U5-nFAULT)', 'Net-(U4-nFAULT)'), ('/motor_controls3/motor_out2', '/motor_controls1/motor_out2'), ('Net-(U5-VCP)', 'Net-(U4-VCP)'), ('Net-(U5-PMODE)', 'Net-(U4-PMODE)')]
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['motor_controls2']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls2'] :[('/motor_controls3/motor_out2', '/motor_controls2/motor_out2'), ('/motor_controls3/motor_out1', '/motor_controls2/motor_out1'), ('Net-(U5-IPROPI)', 'Net-(U3-IPROPI)'), ('Net-(U5-IMODE)', 'Net-(U3-IMODE)'), ('m3_EN', 'm2_EN'), ('Net-(U5-nFAULT)', 'Net-(U3-nFAULT)'), ('', ''), ('Net-(U5-CPH)', 'Net-(U3-CPH)'), ('GND', 'GND'), ('+5V', '+5V'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('Net-(U5-CPL)', 'Net-(U3-CPL)'), ('Net-(U5-nSLEEP)', 'Net-(U3-nSLEEP)'), ('Net-(U5-VCP)', 'Net-(U3-VCP)'), ('m3_PH', 'm2_PH'), ('Net-(U5-PMODE)', 'Net-(U3-PMODE)')]
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['motor_controls4']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls4'] :[('Net-(U5-CPL)', 'Net-(U9-CPL)'), ('Net-(U5-CPH)', 'Net-(U9-CPH)'), ('Net-(U5-PMODE)', 'Net-(U9-PMODE)'), ('', ''), ('GND', 'GND'), ('Net-(U5-IPROPI)', 'Net-(U9-IPROPI)'), ('/motor_controls3/motor_out2', '/motor_controls4/motor_out2'), ('m3_PH', 'm4_PH'), ('+5V', '+5V'), ('/motor_controls3/motor_out1', '/motor_controls4/motor_out1'), ('+3V3', '+3V3'), ('+BATT', '+BATT'), ('m3_EN', 'm4_EN'), ('Net-(U5-VCP)', 'Net-(U9-VCP)'), ('Net-(U5-IMODE)', 'Net-(U9-IMODE)'), ('Net-(U5-nSLEEP)', 'Net-(U9-nSLEEP)'), ('Net-(U5-nFAULT)', 'Net-(U9-nFAULT)')]
-05-30 15:34:18 root 332:updating GUI message: 'Replicating text'
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['motor_controls1']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['motor_controls2']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['motor_controls4']
-05-30 15:34:18 root 332:updating GUI message: 'Replicating drawings'
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['motor_controls1']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['motor_controls2']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['motor_controls4']
-05-30 15:34:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(5083, 80)
+05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(4644, 80)
+05-30 22:55:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:55:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:55:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:55:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:55:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:55:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:55:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:55:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:55:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:55:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:55:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:55:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:55:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:55:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:55:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:55:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:57:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:57:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:57:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:57:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:58:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:58:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:58:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:58:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:58:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:58:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:58:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:58:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:58:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:58:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:58:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:58:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:58:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:58:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:58:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
+05-30 22:58:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:58:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:58:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
+05-30 22:58:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
+on level: ['motor_controls4']
+with tracks=True, zone=True, text=True, text=True, intersecting=True, remove=False, locked footprints=False, group_only=False
+05-30 22:58:45 root 332:updating GUI message: 'Preparing for replication'
+05-30 22:58:45 root 337:updating GUI with: 0
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+05-30 22:58:45 root 332:updating GUI message: 'Replicating footprints'
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+05-30 22:58:45 root 337:updating GUI with: 0
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['motor_controls1']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['motor_controls2']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['motor_controls3']
+05-30 22:58:45 root 337:updating GUI with: 74
+05-30 22:58:45 root 332:updating GUI message: 'Replicating tracks'
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['motor_controls1']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls1'] :[('Net-(U9-nFAULT)', 'Net-(U4-nFAULT)'), ('Net-(U9-PMODE)', 'Net-(U4-PMODE)'), ('Net-(U9-CPL)', 'Net-(U4-CPL)'), ('m4_EN', 'm1_EN'), ('/motor_controls4/motor_out2', '/motor_controls1/motor_out2'), ('m4_PH', 'm1_PH'), ('', ''), ('GND', 'GND'), ('Net-(U9-CPH)', 'Net-(U4-CPH)'), ('Net-(U9-nSLEEP)', 'Net-(U4-nSLEEP)'), ('Net-(U9-IMODE)', 'Net-(U4-IMODE)'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('/motor_controls4/motor_out1', '/motor_controls1/motor_out1'), ('+5V', '+5V'), ('Net-(U9-IPROPI)', 'Net-(U4-IPROPI)'), ('Net-(U9-VCP)', 'Net-(U4-VCP)')]
+05-30 22:58:45 root 337:updating GUI with: 10
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['motor_controls2']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls2'] :[('m4_EN', 'm2_EN'), ('Net-(U9-PMODE)', 'Net-(U3-PMODE)'), ('/motor_controls4/motor_out1', '/motor_controls2/motor_out1'), ('Net-(U9-CPH)', 'Net-(U3-CPH)'), ('', ''), ('/motor_controls4/motor_out2', '/motor_controls2/motor_out2'), ('GND', 'GND'), ('Net-(U9-nFAULT)', 'Net-(U3-nFAULT)'), ('Net-(U9-nSLEEP)', 'Net-(U3-nSLEEP)'), ('Net-(U9-IMODE)', 'Net-(U3-IMODE)'), ('+5V', '+5V'), ('+3V3', '+3V3'), ('+BATT', '+BATT'), ('Net-(U9-CPL)', 'Net-(U3-CPL)'), ('Net-(U9-VCP)', 'Net-(U3-VCP)'), ('Net-(U9-IPROPI)', 'Net-(U3-IPROPI)'), ('m4_PH', 'm2_PH')]
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['motor_controls3']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls3'] :[('Net-(U9-nFAULT)', 'Net-(U5-nFAULT)'), ('Net-(U9-PMODE)', 'Net-(U5-PMODE)'), ('/motor_controls4/motor_out1', '/motor_controls3/motor_out1'), ('', ''), ('Net-(U9-VCP)', 'Net-(U5-VCP)'), ('GND', 'GND'), ('m4_EN', 'm3_EN'), ('Net-(U9-CPL)', 'Net-(U5-CPL)'), ('m4_PH', 'm3_PH'), ('Net-(U9-IPROPI)', 'Net-(U5-IPROPI)'), ('Net-(U9-nSLEEP)', 'Net-(U5-nSLEEP)'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('Net-(U9-IMODE)', 'Net-(U5-IMODE)'), ('/motor_controls4/motor_out2', '/motor_controls3/motor_out2'), ('Net-(U9-CPH)', 'Net-(U5-CPH)'), ('+5V', '+5V')]
+05-30 22:58:45 root 337:updating GUI with: 96
+05-30 22:58:45 root 332:updating GUI message: 'Replicating zones'
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['motor_controls1']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls1'] :[('Net-(U9-nFAULT)', 'Net-(U4-nFAULT)'), ('Net-(U9-PMODE)', 'Net-(U4-PMODE)'), ('Net-(U9-CPL)', 'Net-(U4-CPL)'), ('m4_EN', 'm1_EN'), ('/motor_controls4/motor_out2', '/motor_controls1/motor_out2'), ('m4_PH', 'm1_PH'), ('', ''), ('GND', 'GND'), ('Net-(U9-CPH)', 'Net-(U4-CPH)'), ('Net-(U9-nSLEEP)', 'Net-(U4-nSLEEP)'), ('Net-(U9-IMODE)', 'Net-(U4-IMODE)'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('/motor_controls4/motor_out1', '/motor_controls1/motor_out1'), ('+5V', '+5V'), ('Net-(U9-IPROPI)', 'Net-(U4-IPROPI)'), ('Net-(U9-VCP)', 'Net-(U4-VCP)')]
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['motor_controls2']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls2'] :[('m4_EN', 'm2_EN'), ('Net-(U9-PMODE)', 'Net-(U3-PMODE)'), ('/motor_controls4/motor_out1', '/motor_controls2/motor_out1'), ('Net-(U9-CPH)', 'Net-(U3-CPH)'), ('', ''), ('/motor_controls4/motor_out2', '/motor_controls2/motor_out2'), ('GND', 'GND'), ('Net-(U9-nFAULT)', 'Net-(U3-nFAULT)'), ('Net-(U9-nSLEEP)', 'Net-(U3-nSLEEP)'), ('Net-(U9-IMODE)', 'Net-(U3-IMODE)'), ('+5V', '+5V'), ('+3V3', '+3V3'), ('+BATT', '+BATT'), ('Net-(U9-CPL)', 'Net-(U3-CPL)'), ('Net-(U9-VCP)', 'Net-(U3-VCP)'), ('Net-(U9-IPROPI)', 'Net-(U3-IPROPI)'), ('m4_PH', 'm2_PH')]
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['motor_controls3']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls3'] :[('Net-(U9-nFAULT)', 'Net-(U5-nFAULT)'), ('Net-(U9-PMODE)', 'Net-(U5-PMODE)'), ('/motor_controls4/motor_out1', '/motor_controls3/motor_out1'), ('', ''), ('Net-(U9-VCP)', 'Net-(U5-VCP)'), ('GND', 'GND'), ('m4_EN', 'm3_EN'), ('Net-(U9-CPL)', 'Net-(U5-CPL)'), ('m4_PH', 'm3_PH'), ('Net-(U9-IPROPI)', 'Net-(U5-IPROPI)'), ('Net-(U9-nSLEEP)', 'Net-(U5-nSLEEP)'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('Net-(U9-IMODE)', 'Net-(U5-IMODE)'), ('/motor_controls4/motor_out2', '/motor_controls3/motor_out2'), ('Net-(U9-CPH)', 'Net-(U5-CPH)'), ('+5V', '+5V')]
+05-30 22:58:45 root 337:updating GUI with: 100
+05-30 22:58:45 root 332:updating GUI message: 'Replicating text'
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['motor_controls1']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['motor_controls2']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['motor_controls3']
+05-30 22:58:45 root 332:updating GUI message: 'Replicating drawings'
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['motor_controls1']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['motor_controls2']
+05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['motor_controls3']
+05-30 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete

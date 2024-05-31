@@ -288,11 +288,11 @@
         )
       )
     )
-    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3V3" (at 0 3.556 0)
+      (property "Value" "+3.3V" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -304,10 +304,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3V3_0_1"
+      (symbol "+3.3V_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -333,9 +333,9 @@
           (fill (type none))
         )
       )
-      (symbol "+3V3_1_1"
+      (symbol "+3.3V_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1128,40 +1128,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 108.585 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 530183c5-fd7a-42e7-8deb-d731ac89d5e7)
-    (property "Reference" "#PWR038" (at 108.585 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 108.585 99.695 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 108.585 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 108.585 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 65350ced-18aa-4989-b2f3-dd7203cbfdac))
-    (instances
-      (project "motorgo_plink"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-          (reference "#PWR038") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-          (reference "#PWR028") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
-          (reference "#PWR096") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:TestPoint") (at 106.68 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 586ff025-3a83-44e7-9dea-2b545cfb9a66)
@@ -1611,6 +1577,43 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
           (reference "Rmode4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 108.585 102.87 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid db9b2919-22e0-4b7d-a376-e624ae55ee25)
+    (property "Reference" "#PWR075" (at 108.585 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 104.775 102.87 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 108.585 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 108.585 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 77ccb66d-5a5a-480b-be86-fcb9a72e8b0b))
+    (instances
+      (project "motorgo_plink"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c5a81061-28ff-4599-a380-43adb8d460db"
+          (reference "#PWR075") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+          (reference "#PWR064") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+          (reference "#PWR0119") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
+          (reference "#PWR0120") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
+          (reference "#PWR0121") (unit 1)
         )
       )
     )

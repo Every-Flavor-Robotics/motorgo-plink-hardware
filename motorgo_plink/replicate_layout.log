@@ -1,288 +1,303 @@
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Apr  9 2023, 05:22:13) [MSC v.1934 64 bit (AMD64)]'
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.2
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001EC13380D30>
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U9 as a reference
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U9'
-Located on: ['motor_controls4']
-With filenames: ['H_brdige_AP30H80Q.kicad_sch']
-With sheet_id:['motor_controls4']
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
-[('U4', ['motor_controls1']), ('U9', ['motor_controls4']), ('U3', ['motor_controls2']), ('U5', ['motor_controls3'])]
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(5083, 80)
-05-30 22:54:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(4644, 80)
-05-30 22:55:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:55:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:55:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:55:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:55:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:55:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:55:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:55:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:55:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:55:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:55:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:55:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:55:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:55:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:55:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:55:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:56:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:57:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:57:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:57:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:57:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:58:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:58:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:58:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:58:07 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:58:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:58:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:58:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:58:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:58:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:58:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:58:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:58:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:58:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:58:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:58:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1305:Track group: , src group:None
-05-30 22:58:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:58:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:58:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['motor_controls4']
-05-30 22:58:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'motor_controls4', file:'H_brdige_AP30H80Q.kicad_sch'
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['motor_controls1'], ['motor_controls2'], ['motor_controls3']]
-on level: ['motor_controls4']
-with tracks=True, zone=True, text=True, text=True, intersecting=True, remove=False, locked footprints=False, group_only=False
-05-30 22:58:45 root 332:updating GUI message: 'Preparing for replication'
-05-30 22:58:45 root 337:updating GUI with: 0
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
-05-30 22:58:45 root 332:updating GUI message: 'Replicating footprints'
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
-05-30 22:58:45 root 337:updating GUI with: 0
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['motor_controls1']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['motor_controls2']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['motor_controls3']
-05-30 22:58:45 root 337:updating GUI with: 74
-05-30 22:58:45 root 332:updating GUI message: 'Replicating tracks'
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['motor_controls1']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls1'] :[('Net-(U9-nFAULT)', 'Net-(U4-nFAULT)'), ('Net-(U9-PMODE)', 'Net-(U4-PMODE)'), ('Net-(U9-CPL)', 'Net-(U4-CPL)'), ('m4_EN', 'm1_EN'), ('/motor_controls4/motor_out2', '/motor_controls1/motor_out2'), ('m4_PH', 'm1_PH'), ('', ''), ('GND', 'GND'), ('Net-(U9-CPH)', 'Net-(U4-CPH)'), ('Net-(U9-nSLEEP)', 'Net-(U4-nSLEEP)'), ('Net-(U9-IMODE)', 'Net-(U4-IMODE)'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('/motor_controls4/motor_out1', '/motor_controls1/motor_out1'), ('+5V', '+5V'), ('Net-(U9-IPROPI)', 'Net-(U4-IPROPI)'), ('Net-(U9-VCP)', 'Net-(U4-VCP)')]
-05-30 22:58:45 root 337:updating GUI with: 10
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['motor_controls2']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls2'] :[('m4_EN', 'm2_EN'), ('Net-(U9-PMODE)', 'Net-(U3-PMODE)'), ('/motor_controls4/motor_out1', '/motor_controls2/motor_out1'), ('Net-(U9-CPH)', 'Net-(U3-CPH)'), ('', ''), ('/motor_controls4/motor_out2', '/motor_controls2/motor_out2'), ('GND', 'GND'), ('Net-(U9-nFAULT)', 'Net-(U3-nFAULT)'), ('Net-(U9-nSLEEP)', 'Net-(U3-nSLEEP)'), ('Net-(U9-IMODE)', 'Net-(U3-IMODE)'), ('+5V', '+5V'), ('+3V3', '+3V3'), ('+BATT', '+BATT'), ('Net-(U9-CPL)', 'Net-(U3-CPL)'), ('Net-(U9-VCP)', 'Net-(U3-VCP)'), ('Net-(U9-IPROPI)', 'Net-(U3-IPROPI)'), ('m4_PH', 'm2_PH')]
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['motor_controls3']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls3'] :[('Net-(U9-nFAULT)', 'Net-(U5-nFAULT)'), ('Net-(U9-PMODE)', 'Net-(U5-PMODE)'), ('/motor_controls4/motor_out1', '/motor_controls3/motor_out1'), ('', ''), ('Net-(U9-VCP)', 'Net-(U5-VCP)'), ('GND', 'GND'), ('m4_EN', 'm3_EN'), ('Net-(U9-CPL)', 'Net-(U5-CPL)'), ('m4_PH', 'm3_PH'), ('Net-(U9-IPROPI)', 'Net-(U5-IPROPI)'), ('Net-(U9-nSLEEP)', 'Net-(U5-nSLEEP)'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('Net-(U9-IMODE)', 'Net-(U5-IMODE)'), ('/motor_controls4/motor_out2', '/motor_controls3/motor_out2'), ('Net-(U9-CPH)', 'Net-(U5-CPH)'), ('+5V', '+5V')]
-05-30 22:58:45 root 337:updating GUI with: 96
-05-30 22:58:45 root 332:updating GUI message: 'Replicating zones'
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['motor_controls1']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls1'] :[('Net-(U9-nFAULT)', 'Net-(U4-nFAULT)'), ('Net-(U9-PMODE)', 'Net-(U4-PMODE)'), ('Net-(U9-CPL)', 'Net-(U4-CPL)'), ('m4_EN', 'm1_EN'), ('/motor_controls4/motor_out2', '/motor_controls1/motor_out2'), ('m4_PH', 'm1_PH'), ('', ''), ('GND', 'GND'), ('Net-(U9-CPH)', 'Net-(U4-CPH)'), ('Net-(U9-nSLEEP)', 'Net-(U4-nSLEEP)'), ('Net-(U9-IMODE)', 'Net-(U4-IMODE)'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('/motor_controls4/motor_out1', '/motor_controls1/motor_out1'), ('+5V', '+5V'), ('Net-(U9-IPROPI)', 'Net-(U4-IPROPI)'), ('Net-(U9-VCP)', 'Net-(U4-VCP)')]
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['motor_controls2']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls2'] :[('m4_EN', 'm2_EN'), ('Net-(U9-PMODE)', 'Net-(U3-PMODE)'), ('/motor_controls4/motor_out1', '/motor_controls2/motor_out1'), ('Net-(U9-CPH)', 'Net-(U3-CPH)'), ('', ''), ('/motor_controls4/motor_out2', '/motor_controls2/motor_out2'), ('GND', 'GND'), ('Net-(U9-nFAULT)', 'Net-(U3-nFAULT)'), ('Net-(U9-nSLEEP)', 'Net-(U3-nSLEEP)'), ('Net-(U9-IMODE)', 'Net-(U3-IMODE)'), ('+5V', '+5V'), ('+3V3', '+3V3'), ('+BATT', '+BATT'), ('Net-(U9-CPL)', 'Net-(U3-CPL)'), ('Net-(U9-VCP)', 'Net-(U3-VCP)'), ('Net-(U9-IPROPI)', 'Net-(U3-IPROPI)'), ('m4_PH', 'm2_PH')]
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['motor_controls3']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['motor_controls3'] :[('Net-(U9-nFAULT)', 'Net-(U5-nFAULT)'), ('Net-(U9-PMODE)', 'Net-(U5-PMODE)'), ('/motor_controls4/motor_out1', '/motor_controls3/motor_out1'), ('', ''), ('Net-(U9-VCP)', 'Net-(U5-VCP)'), ('GND', 'GND'), ('m4_EN', 'm3_EN'), ('Net-(U9-CPL)', 'Net-(U5-CPL)'), ('m4_PH', 'm3_PH'), ('Net-(U9-IPROPI)', 'Net-(U5-IPROPI)'), ('Net-(U9-nSLEEP)', 'Net-(U5-nSLEEP)'), ('+BATT', '+BATT'), ('+3V3', '+3V3'), ('Net-(U9-IMODE)', 'Net-(U5-IMODE)'), ('/motor_controls4/motor_out2', '/motor_controls3/motor_out2'), ('Net-(U9-CPH)', 'Net-(U5-CPH)'), ('+5V', '+5V')]
-05-30 22:58:45 root 337:updating GUI with: 100
-05-30 22:58:45 root 332:updating GUI message: 'Replicating text'
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['motor_controls1']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['motor_controls2']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['motor_controls3']
-05-30 22:58:45 root 332:updating GUI message: 'Replicating drawings'
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['motor_controls1']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['motor_controls2']
-05-30 22:58:45 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['motor_controls3']
-05-30 22:58:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+06-01 10:32:03 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:05 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:05 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:05 svg2mod 304:  Inlining 1 segments...
+06-01 10:32:05 svg2mod 339:  Writing Text with 52 points
+06-01 10:32:05 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:05 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:05 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:05 svg2mod 304:  Inlining 3 segments...
+06-01 10:32:05 svg2mod 339:  Writing Text with 120 points
+06-01 10:32:05 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:05 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:05 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:05 svg2mod 304:  Inlining 2 segments...
+06-01 10:32:05 svg2mod 339:  Writing Text with 85 points
+06-01 10:32:06 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:06 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:06 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:06 svg2mod 304:  Inlining 2 segments...
+06-01 10:32:06 svg2mod 339:  Writing Text with 85 points
+06-01 10:32:07 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:07 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:07 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:07 svg2mod 304:  Inlining 3 segments...
+06-01 10:32:07 svg2mod 339:  Writing Text with 93 points
+06-01 10:32:08 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:08 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:08 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:08 svg2mod 304:  Inlining 3 segments...
+06-01 10:32:08 svg2mod 339:  Writing Text with 93 points
+06-01 10:32:09 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:09 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:09 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:09 svg2mod 304:  Inlining 4 segments...
+06-01 10:32:09 svg2mod 339:  Writing Text with 143 points
+06-01 10:32:09 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:09 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:09 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:09 svg2mod 304:  Inlining 5 segments...
+06-01 10:32:09 svg2mod 339:  Writing Text with 176 points
+06-01 10:32:16 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:16 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:16 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:16 svg2mod 304:  Inlining 5 segments...
+06-01 10:32:16 svg2mod 339:  Writing Text with 175 points
+06-01 10:32:19 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:19 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:19 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:19 svg2mod 304:  Inlining 5 segments...
+06-01 10:32:19 svg2mod 339:  Writing Text with 208 points
+06-01 10:32:21 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:21 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:21 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:21 svg2mod 304:  Inlining 5 segments...
+06-01 10:32:21 svg2mod 339:  Writing Text with 211 points
+06-01 10:32:24 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:24 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:24 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:24 svg2mod 304:  Inlining 5 segments...
+06-01 10:32:24 svg2mod 339:  Writing Text with 208 points
+06-01 10:32:27 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:27 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:27 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:27 svg2mod 304:  Inlining 5 segments...
+06-01 10:32:27 svg2mod 339:  Writing Text with 176 points
+06-01 10:32:29 com_github_gregdavill_KiBuzzard.plugin 57:Running KiBuzzard
+06-01 10:32:29 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:29 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:29 svg2mod 304:  Inlining 5 segments...
+06-01 10:32:29 svg2mod 339:  Writing Text with 176 points
+06-01 10:32:29 com_github_gregdavill_KiBuzzard.plugin 71:Loading label onto clipboard
+06-01 10:32:29 com_github_gregdavill_KiBuzzard.plugin 128:Using wx.KeyEvent for paste
+06-01 10:32:29 com_github_gregdavill_KiBuzzard.plugin 132: Injecting event: <wx._core.KeyEvent object at 0x000001EC6B50DB80> into window: <wx._core.Window object at 0x000001EC16440430>
+06-01 10:32:55 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:32:55 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:55 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:55 svg2mod 304:  Inlining 1 segments...
+06-01 10:32:55 svg2mod 339:  Writing Text with 38 points
+06-01 10:32:56 com_github_gregdavill_KiBuzzard.plugin 57:Running KiBuzzard
+06-01 10:32:56 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:32:56 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:32:56 svg2mod 304:  Inlining 1 segments...
+06-01 10:32:56 svg2mod 339:  Writing Text with 38 points
+06-01 10:32:56 com_github_gregdavill_KiBuzzard.plugin 71:Loading label onto clipboard
+06-01 10:32:56 com_github_gregdavill_KiBuzzard.plugin 128:Using wx.KeyEvent for paste
+06-01 10:32:56 com_github_gregdavill_KiBuzzard.plugin 132: Injecting event: <wx._core.KeyEvent object at 0x000001EC6B50DB80> into window: <wx._core.Window object at 0x000001EC165BA5E0>
+06-01 10:33:46 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:33:46 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:33:46 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:33:46 svg2mod 304:  Inlining 1 segments...
+06-01 10:33:46 svg2mod 339:  Writing Text with 38 points
+06-01 10:33:47 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:33:47 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:33:47 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:33:47 svg2mod 304:  Inlining 3 segments...
+06-01 10:33:47 svg2mod 339:  Writing Text with 128 points
+06-01 10:33:47 svg2mod 339:  Writing Text with 10 points
+06-01 10:33:48 com_github_gregdavill_KiBuzzard.plugin 57:Running KiBuzzard
+06-01 10:33:48 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:33:48 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:33:48 svg2mod 304:  Inlining 3 segments...
+06-01 10:33:48 svg2mod 339:  Writing Text with 128 points
+06-01 10:33:48 svg2mod 339:  Writing Text with 10 points
+06-01 10:33:48 com_github_gregdavill_KiBuzzard.plugin 71:Loading label onto clipboard
+06-01 10:33:48 com_github_gregdavill_KiBuzzard.plugin 128:Using wx.KeyEvent for paste
+06-01 10:33:48 com_github_gregdavill_KiBuzzard.plugin 132: Injecting event: <wx._core.KeyEvent object at 0x000001EC6B50DB80> into window: <wx._core.Window object at 0x000001EC165BA1F0>
+06-01 10:34:48 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:34:48 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:34:48 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:34:48 svg2mod 304:  Inlining 1 segments...
+06-01 10:34:48 svg2mod 339:  Writing Text with 38 points
+06-01 10:34:48 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:34:48 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:34:48 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:34:48 svg2mod 304:  Inlining 2 segments...
+06-01 10:34:48 svg2mod 339:  Writing Text with 57 points
+06-01 10:34:50 svg2mod 1301:Font "FredokaOne" does not natively support style "Regular" using "Path" instead
+06-01 10:34:50 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:34:50 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:34:50 svg2mod 304:  Inlining 2 segments...
+06-01 10:34:50 svg2mod 339:  Writing Text with 102 points
+06-01 10:34:52 svg2mod 1301:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+06-01 10:34:52 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:34:52 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:34:52 svg2mod 304:  Inlining 2 segments...
+06-01 10:34:52 svg2mod 339:  Writing Text with 56 points
+06-01 10:34:54 svg2mod 1301:Font "UbuntuMono-B" does not natively support style "Regular" using "Path" instead
+06-01 10:34:54 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:34:54 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:34:54 svg2mod 304:  Inlining 2 segments...
+06-01 10:34:54 svg2mod 339:  Writing Text with 91 points
+06-01 10:34:56 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:34:56 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:34:56 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:34:56 svg2mod 304:  Inlining 2 segments...
+06-01 10:34:56 svg2mod 339:  Writing Text with 57 points
+06-01 10:34:58 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:34:58 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:34:58 svg2mod 1354:Unsupported character in <text> element ""
+06-01 10:34:58 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:34:58 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:34:58 svg2mod 304:  Inlining 2 segments...
+06-01 10:34:58 svg2mod 339:  Writing Text with 57 points
+06-01 10:34:59 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:34:59 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:34:59 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:34:59 svg2mod 304:  Inlining 2 segments...
+06-01 10:34:59 svg2mod 339:  Writing Text with 57 points
+06-01 10:35:05 com_github_gregdavill_KiBuzzard.plugin 57:Running KiBuzzard
+06-01 10:35:05 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:35:05 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:35:05 svg2mod 304:  Inlining 2 segments...
+06-01 10:35:05 svg2mod 339:  Writing Text with 57 points
+06-01 10:35:05 com_github_gregdavill_KiBuzzard.plugin 71:Loading label onto clipboard
+06-01 10:35:05 com_github_gregdavill_KiBuzzard.plugin 128:Using wx.KeyEvent for paste
+06-01 10:35:05 com_github_gregdavill_KiBuzzard.plugin 132: Injecting event: <wx._core.KeyEvent object at 0x000001EC165BDE50> into window: <wx._core.Window object at 0x000001EC166FBD30>
+06-01 10:36:27 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:27 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:27 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:27 svg2mod 304:  Inlining 2 segments...
+06-01 10:36:27 svg2mod 339:  Writing Text with 97 points
+06-01 10:36:27 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:27 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:27 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:27 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:27 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:27 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:27 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:29 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:29 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:29 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:29 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:29 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:29 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:30 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:30 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:30 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:30 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:30 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:30 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:30 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:30 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:30 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:30 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:30 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:30 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:33 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:33 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:33 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:33 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:33 svg2mod 339:  Writing Text with 125 points
+06-01 10:36:33 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:34 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:34 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:34 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:34 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:34 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:34 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:35 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:36 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:36 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:36 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:36 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:36 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:38 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:38 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:38 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:38 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:38 svg2mod 339:  Writing Text with 125 points
+06-01 10:36:38 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:41 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:41 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:41 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:41 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:41 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:41 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:43 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:43 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:43 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:43 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:43 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:43 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:44 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:44 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:44 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:44 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:44 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:44 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:45 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:45 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:45 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:45 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:45 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:45 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:47 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:47 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:47 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:47 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:47 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:47 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:49 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:49 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:49 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:49 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:49 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:49 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:52 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:52 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:52 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:52 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:52 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:52 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:53 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:53 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:53 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:53 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:53 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:53 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:54 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:54 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:54 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:54 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:54 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:54 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:56 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:56 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:56 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:56 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:56 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:56 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:57 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:57 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:57 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:57 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:57 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:57 svg2mod 339:  Writing Text with 17 points
+06-01 10:36:59 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:36:59 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:36:59 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:36:59 svg2mod 304:  Inlining 3 segments...
+06-01 10:36:59 svg2mod 339:  Writing Text with 124 points
+06-01 10:36:59 svg2mod 339:  Writing Text with 17 points
+06-01 10:37:01 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:37:01 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:37:01 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:37:01 svg2mod 304:  Inlining 3 segments...
+06-01 10:37:01 svg2mod 339:  Writing Text with 124 points
+06-01 10:37:01 svg2mod 339:  Writing Text with 17 points
+06-01 10:37:03 svg2mod 1301:Font "BerkeleyMono-Bold" does not natively support style "Regular" using "Path" instead
+06-01 10:37:03 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:37:03 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:37:03 svg2mod 304:  Inlining 3 segments...
+06-01 10:37:03 svg2mod 339:  Writing Text with 124 points
+06-01 10:37:03 svg2mod 339:  Writing Text with 17 points
+06-01 10:37:05 com_github_gregdavill_KiBuzzard.plugin 57:Running KiBuzzard
+06-01 10:37:05 svg2mod-unfiltered 262:Found SVG layer: F.SilkS
+06-01 10:37:05 svg2mod 263:  Detailed names: [F.SilkS]
+06-01 10:37:05 svg2mod 304:  Inlining 3 segments...
+06-01 10:37:05 svg2mod 339:  Writing Text with 124 points
+06-01 10:37:05 svg2mod 339:  Writing Text with 17 points
+06-01 10:37:05 com_github_gregdavill_KiBuzzard.plugin 71:Loading label onto clipboard
+06-01 10:37:05 com_github_gregdavill_KiBuzzard.plugin 128:Using wx.KeyEvent for paste
+06-01 10:37:05 com_github_gregdavill_KiBuzzard.plugin 132: Injecting event: <wx._core.KeyEvent object at 0x000001EC13182C10> into window: <wx._core.Window object at 0x000001EC5F2F3040>

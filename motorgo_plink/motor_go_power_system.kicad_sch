@@ -2096,6 +2096,12 @@
 		(uuid "1d904b6c-1efe-4c30-ba94-aff6926d1c16")
 	)
 	(junction
+		(at 57.15 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e0f50a4-cddd-4267-b253-827b2d9714aa")
+	)
+	(junction
 		(at 195.58 74.295)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2114,16 +2120,22 @@
 		(uuid "1fc54558-e3d2-49f2-aac5-3307523e8a0d")
 	)
 	(junction
-		(at 56.515 109.855)
+		(at 52.07 70.485)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2290e534-ade9-4d5c-ae42-a9217082d7d2")
+		(uuid "205bfc42-7a5b-4b76-bc12-080d35c3e193")
 	)
 	(junction
 		(at 156.845 65.405)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f62fcd5-a4ef-4344-a25b-5c465d3dfe62")
+	)
+	(junction
+		(at 41.91 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34c2533f-371f-4a23-88c6-9615f7dc3c51")
 	)
 	(junction
 		(at 142.875 94.615)
@@ -2138,6 +2150,12 @@
 		(uuid "6725e84b-a62a-40c8-9a1c-5970fc9b4455")
 	)
 	(junction
+		(at 80.01 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ea264f8-d4d9-4d4b-9658-5afe6b0d1c94")
+	)
+	(junction
 		(at 113.03 93.345)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2148,12 +2166,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79f9d9bc-da08-4d34-97ee-ea2981525154")
-	)
-	(junction
-		(at 55.245 70.485)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "829f3bef-009f-41c8-a590-983b1e35e484")
 	)
 	(junction
 		(at 142.875 78.105)
@@ -2174,10 +2186,22 @@
 		(uuid "96d5cfda-d799-4421-97a9-3676de987f72")
 	)
 	(junction
-		(at 66.04 109.855)
+		(at 52.07 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acdb5384-a537-49f4-94e7-d5757b7987ca")
+	)
+	(junction
+		(at 66.04 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b36db507-4263-4fd7-9bdc-0e4a563b592b")
+	)
+	(junction
+		(at 41.91 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b551981e-3dec-4539-a510-6a9d053affa1")
 	)
 	(junction
 		(at 60.96 80.645)
@@ -2186,7 +2210,13 @@
 		(uuid "b6bbd4f9-24ba-4d1c-850e-bcc00020a0ee")
 	)
 	(junction
-		(at 73.66 109.855)
+		(at 80.01 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b73d5fff-7694-439b-8578-082af5e42b07")
+	)
+	(junction
+		(at 73.66 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9ce34c8-9a61-4c39-b8c7-305e71802259")
@@ -2196,12 +2226,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d06e4dec-44c0-4e26-b6d2-340fc0bb69fc")
-	)
-	(junction
-		(at 49.53 83.185)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd3d95e6-743a-45b8-8398-3afe770ee58f")
 	)
 	(no_connect
 		(at 113.03 83.185)
@@ -2229,7 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 109.855) (xy 79.375 109.855)
+			(xy 73.66 110.49) (xy 80.01 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2256,6 +2280,26 @@
 			(type default)
 		)
 		(uuid "0fb08429-6593-4630-9146-33d1ae6419d1")
+	)
+	(wire
+		(pts
+			(xy 80.01 110.49) (xy 88.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16864020-fa67-47af-8c5d-d69f9c86b6a0")
+	)
+	(wire
+		(pts
+			(xy 41.91 82.55) (xy 36.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de9b5fa-cfa9-43d6-b15b-cbc1e26827d4")
 	)
 	(wire
 		(pts
@@ -2329,13 +2373,33 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 109.855) (xy 56.515 109.855)
+			(xy 52.07 70.485) (xy 60.96 70.485)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35c37d64-b89a-460b-9a9e-f2e85eab6070")
+		(uuid "30653eee-01a2-4892-966c-674fe37ff5be")
+	)
+	(wire
+		(pts
+			(xy 46.99 90.17) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354c26bb-f51d-4df6-867f-9a1c1d19bd02")
+	)
+	(wire
+		(pts
+			(xy 41.91 97.79) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b13163-a4cc-4f78-8907-4cf33ca1e70d")
 	)
 	(wire
 		(pts
@@ -2399,6 +2463,26 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 97.79) (xy 52.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4983b1e5-b251-45e3-897e-5809a856b725")
+	)
+	(wire
+		(pts
+			(xy 41.91 97.79) (xy 41.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f51ff1c-fb20-46c3-ac91-0832b920b3cb")
+	)
+	(wire
+		(pts
 			(xy 80.645 73.025) (xy 82.55 73.025)
 		)
 		(stroke
@@ -2439,16 +2523,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 83.185) (xy 49.53 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60571cf4-7554-45ba-8e05-4be67f21b49d")
-	)
-	(wire
-		(pts
 			(xy 71.12 78.105) (xy 68.58 80.645)
 		)
 		(stroke
@@ -2456,16 +2530,6 @@
 			(type default)
 		)
 		(uuid "68d81ec3-52b3-4d6d-a037-6547f22339da")
-	)
-	(wire
-		(pts
-			(xy 56.515 94.615) (xy 56.515 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69126ca0-0bc7-400e-9c9f-1f98a1dc01c5")
 	)
 	(wire
 		(pts
@@ -2499,7 +2563,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 90.17) (xy 56.515 94.615)
+			(xy 36.83 91.44) (xy 36.83 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3f70ae-8418-4493-82ca-f09a4a131d29")
+	)
+	(wire
+		(pts
+			(xy 60.96 90.17) (xy 57.15 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2516,6 +2590,26 @@
 			(type default)
 		)
 		(uuid "7efffa11-b646-40da-9710-cff5e709d1e0")
+	)
+	(wire
+		(pts
+			(xy 57.15 110.49) (xy 66.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80213c0e-a54f-4e4a-a649-f9781ce10fe5")
+	)
+	(wire
+		(pts
+			(xy 41.91 90.17) (xy 41.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82085f2c-5f1e-473b-b7f8-b5d03d582ec0")
 	)
 	(wire
 		(pts
@@ -2579,6 +2673,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 110.49) (xy 57.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9087e404-b602-4c19-b150-9264aab8a51d")
+	)
+	(wire
+		(pts
 			(xy 195.58 74.93) (xy 195.58 74.295)
 		)
 		(stroke
@@ -2629,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 93.98) (xy 80.01 93.345)
+			(xy 80.01 93.98) (xy 80.645 93.345)
 		)
 		(stroke
 			(width 0)
@@ -2639,13 +2743,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.815 83.185) (xy 49.53 83.185)
+			(xy 36.83 91.44) (xy 41.91 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9bd80503-d7c3-4fc0-b12d-ce7f3878d122")
+	)
+	(wire
+		(pts
+			(xy 52.07 80.01) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2bb744-8fac-485b-a6b4-ada8bd1d6e40")
 	)
 	(wire
 		(pts
@@ -2699,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 93.345) (xy 82.55 93.345)
+			(xy 80.645 93.345) (xy 82.55 93.345)
 		)
 		(stroke
 			(width 0)
@@ -2719,7 +2833,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 109.855) (xy 73.66 109.855)
+			(xy 41.91 82.55) (xy 46.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7dbc22-facb-409c-ad72-a1a44ac71ad2")
+	)
+	(wire
+		(pts
+			(xy 66.04 110.49) (xy 73.66 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2729,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 93.98) (xy 79.375 95.25)
+			(xy 80.01 93.98) (xy 80.01 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2779,16 +2903,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 83.185) (xy 55.245 83.185)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bda46231-bcbf-4507-b6c6-b9bda7018543")
-	)
-	(wire
-		(pts
 			(xy 206.375 59.055) (xy 208.915 59.055)
 		)
 		(stroke
@@ -2799,6 +2913,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 91.44) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0065d4a-e1de-44cb-8943-df676e829ffe")
+	)
+	(wire
+		(pts
 			(xy 113.03 88.265) (xy 113.03 90.805)
 		)
 		(stroke
@@ -2806,6 +2930,16 @@
 			(type default)
 		)
 		(uuid "c42e75df-c307-4711-8117-ae7d77733a2d")
+	)
+	(wire
+		(pts
+			(xy 80.01 102.87) (xy 88.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d1f265-23db-4c30-84ed-bea078da98ff")
 	)
 	(wire
 		(pts
@@ -2839,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.245 70.485) (xy 55.245 75.565)
+			(xy 52.07 70.485) (xy 52.07 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 106.045) (xy 66.04 109.855)
+			(xy 66.04 106.045) (xy 66.04 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +3013,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.815 70.485) (xy 55.245 70.485)
+			(xy 43.815 70.485) (xy 52.07 70.485)
 		)
 		(stroke
 			(width 0)
@@ -2909,6 +3043,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 70.485) (xy 43.815 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d93890-a244-44a2-beef-c645a7881299")
+	)
+	(wire
+		(pts
 			(xy 166.37 65.405) (xy 167.64 64.135)
 		)
 		(stroke
@@ -2929,6 +3073,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 110.49) (xy 57.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e818c717-14b1-48e9-b688-44ee3a183f6c")
+	)
+	(wire
+		(pts
 			(xy 43.815 60.96) (xy 43.815 70.485)
 		)
 		(stroke
@@ -2946,26 +3100,6 @@
 			(type default)
 		)
 		(uuid "e9acfa45-87cd-4f24-a494-33e3556fa0ff")
-	)
-	(wire
-		(pts
-			(xy 60.96 70.485) (xy 55.245 70.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec58d0f6-ebc5-42ae-897a-f6e9a1c2b290")
-	)
-	(wire
-		(pts
-			(xy 56.515 109.855) (xy 66.04 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec72dd8b-19da-4e57-a7a8-58ca089eded4")
 	)
 	(wire
 		(pts
@@ -3029,7 +3163,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.815 70.485) (xy 43.815 75.565)
+			(xy 41.91 70.485) (xy 41.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3173,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 102.87) (xy 73.66 109.855)
+			(xy 73.66 102.87) (xy 73.66 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3047,19 +3181,9 @@
 		)
 		(uuid "fcb86861-cc6c-48c7-82e4-812b441517b9")
 	)
-	(wire
-		(pts
-			(xy 79.375 102.87) (xy 79.375 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff542954-aa87-4676-beb7-79fc69573399")
-	)
 	(rectangle
 		(start 177.165 45.085)
-		(end 227.33 82.55)
+		(end 229.87 82.55)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3095,7 +3219,7 @@
 	)
 	(rectangle
 		(start 177.165 84.455)
-		(end 230.505 125.73)
+		(end 229.87 125.73)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3104,6 +3228,25 @@
 			(type none)
 		)
 		(uuid bf217e9c-c1cf-4124-9d48-6a09d7dc1d49)
+	)
+	(text_box "NOTE: According to sims, the switching frequency for this buck will be ~880Khz."
+		(exclude_from_sim no)
+		(at 125.73 49.53 0)
+		(size 24.13 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d0ec157e-0311-460e-9360-db35f9268062")
 	)
 	(text "Battery -> 5v rail"
 		(exclude_from_sim no)
@@ -3493,7 +3636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF 1mOhm"
+		(property "Value" "47uF 3mOhm"
 			(at 151.765 81.28 0)
 			(effects
 				(font
@@ -3633,7 +3776,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 109.855 0)
+		(at 66.04 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3641,7 +3784,7 @@
 		(dnp no)
 		(uuid "18c10d42-6efe-441a-871a-31f1b6c2fc1a")
 		(property "Reference" "#PWR061"
-			(at 66.04 116.205 0)
+			(at 66.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +3793,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 114.935 0)
+			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 109.855 0)
+			(at 66.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,7 +3810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 109.855 0)
+			(at 66.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 109.855 0)
+			(at 66.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,6 +3983,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 41.91 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31672049-595a-4ec1-88bd-c5e7aeb38f99")
+		(property "Reference" "C2"
+			(at 38.862 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 1mOhm"
+			(at 32.004 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 42.8752 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X5R106K250FT_C5448891.html"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C5448891"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e68dba9-20d0-4601-94d6-42736cd1ea0d")
+		)
+		(pin "2"
+			(uuid "22207bf9-1e69-404a-a1b0-a8456888e322")
+		)
+		(instances
+			(project "motorgo_plink"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c5a81061-28ff-4599-a380-43adb8d460db"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 184.785 57.15 0)
 		(unit 1)
@@ -3907,7 +4128,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 79.375 99.06 0)
+		(at 80.01 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3915,7 +4136,7 @@
 		(dnp no)
 		(uuid "3d7dbb32-6363-4dae-8750-fa59b04eceb4")
 		(property "Reference" "R19"
-			(at 80.645 95.885 0)
+			(at 81.28 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,8 +4144,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.4k"
-			(at 80.645 98.425 0)
+		(property "Value" "4.02k"
+			(at 81.28 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +4154,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.391 99.314 90)
+			(at 81.026 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +4163,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC0402F3401TS_C3013164.html"
-			(at 79.375 99.06 0)
+			(at 80.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +4172,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 79.375 99.06 0)
+			(at 80.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4181,7 @@
 			)
 		)
 		(property "LCSC_Part_Number" "C3013164"
-			(at 79.375 99.06 0)
+			(at 80.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +4206,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 79.375 106.045 0)
+		(at 80.01 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3993,7 +4214,7 @@
 		(dnp no)
 		(uuid "43a458ae-854d-474d-b751-25b04ba4e644")
 		(property "Reference" "C20"
-			(at 81.915 103.505 0)
+			(at 82.55 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,8 +4222,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "43pF 0Ohm"
-			(at 81.28 106.045 0)
+		(property "Value" "16nF 0Ohm"
+			(at 75.057 108.839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4232,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 80.3402 109.855 0)
+			(at 80.9752 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4241,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201CG430J500NT_C3037638.html"
-			(at 79.375 106.045 0)
+			(at 80.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +4250,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 79.375 106.045 0)
+			(at 80.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4259,7 @@
 			)
 		)
 		(property "LCSC_Part_Number" "C3037638"
-			(at 79.375 106.045 0)
+			(at 80.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,6 +4886,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 46.99 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ae6530d-1b67-4bcb-9a38-de237f87bc32")
+		(property "Reference" "C19"
+			(at 42.926 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 1mOhm"
+			(at 32.004 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 47.9552 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X5R106K250FT_C5448891.html"
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C5448891"
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07a5d3fc-ffcb-4210-ad5a-256a2386a90a")
+		)
+		(pin "2"
+			(uuid "c49365d8-7dbe-4808-8381-6090b5a1ad40")
+		)
+		(instances
+			(project "motorgo_plink"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c5a81061-28ff-4599-a380-43adb8d460db"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 113.03 109.22 0)
 		(unit 1)
@@ -4814,7 +5113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "52.3k"
+		(property "Value" "53.6k"
 			(at 144.145 73.025 0)
 			(effects
 				(font
@@ -4869,6 +5168,84 @@
 			(project "motorgo_plink"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c5a81061-28ff-4599-a380-43adb8d460db"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b12fe2a3-6587-453a-b75a-a059468f46ef")
+		(property "Reference" "C1"
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30pF 0Ohm"
+			(at 90.805 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 89.8652 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201CG430J500NT_C3037638.html"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C3037638"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60c0a357-1e2c-4c3a-85f9-8bef8735ec61")
+		)
+		(pin "2"
+			(uuid "1bc26e39-c23f-427c-83a5-9aa2e21f6529")
+		)
+		(instances
+			(project "motorgo_plink"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c5a81061-28ff-4599-a380-43adb8d460db"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5019,7 +5396,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.245 79.375 0)
+		(at 52.07 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5027,7 +5404,7 @@
 		(dnp no)
 		(uuid "bf9fd7d9-dfa2-4f35-b868-a5b35e302504")
 		(property "Reference" "C17"
-			(at 48.895 79.375 0)
+			(at 48.006 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5413,7 @@
 			)
 		)
 		(property "Value" "4.7uF 1mOhm"
-			(at 45.72 81.915 0)
+			(at 46.228 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +5422,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 56.2102 83.185 0)
+			(at 53.0352 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5431,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0603X5R475K250JT_C6119856.html"
-			(at 55.245 79.375 0)
+			(at 52.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.245 79.375 0)
+			(at 52.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5449,7 @@
 			)
 		)
 		(property "LCSC_Part_Number" "C6119856"
-			(at 55.245 79.375 0)
+			(at 52.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5489,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3uH 14mOhm"
+		(property "Value" "3.3uH 14.3mOhm"
 			(at 135.255 63.5 90)
 			(effects
 				(font
@@ -5531,7 +5908,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.815 79.375 0)
+		(at 36.83 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5539,7 +5916,7 @@
 		(dnp no)
 		(uuid "e401fa23-42d3-48e2-adee-acb3ca4d1962")
 		(property "Reference" "C15"
-			(at 38.735 79.375 0)
+			(at 32.766 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,8 +5924,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 4mOhm"
-			(at 38.1 76.2 0)
+		(property "Value" "10uF 1mOhm"
+			(at 32.004 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +5934,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 44.7802 83.185 0)
+			(at 37.7952 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5943,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X5R106K250FT_C5448891.html"
-			(at 43.815 79.375 0)
+			(at 36.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5952,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.815 79.375 0)
+			(at 36.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5961,7 @@
 			)
 		)
 		(property "LCSC_Part_Number" "C5448891"
-			(at 43.815 79.375 0)
+			(at 36.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1289,113 +1289,6 @@
 				)
 			)
 		)
-		(symbol "power:GNDD"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDD"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDD_0_1"
-				(rectangle
-					(start -1.27 -1.524)
-					(end 1.27 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDD_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GNDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 82.55 107.95)
@@ -1446,12 +1339,6 @@
 		(uuid "8d2864b6-d10e-4ce6-983f-9d635a05915c")
 	)
 	(junction
-		(at 175.26 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a467f9a9-0910-4ca5-b343-71254221c3ef")
-	)
-	(junction
 		(at 214.63 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1493,12 +1380,6 @@
 		(color 0 0 0 0)
 		(uuid "e2cebc77-8cd3-4211-b949-967ad7cd8f93")
 	)
-	(junction
-		(at 147.32 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f95e94a8-78f0-4983-8fbc-1497c4bf5aeb")
-	)
 	(no_connect
 		(at 132.08 107.95)
 		(uuid "2773998d-13c2-4f3c-bfe2-fc48eac4a3a0")
@@ -1530,16 +1411,6 @@
 	(no_connect
 		(at 229.87 110.49)
 		(uuid "f415951e-c1a5-4734-81be-d29238b467c5")
-	)
-	(wire
-		(pts
-			(xy 154.94 119.38) (xy 156.21 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "009d422d-f64b-42da-bb35-69e80f2925bf")
 	)
 	(wire
 		(pts
@@ -1733,16 +1604,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 114.3) (xy 156.21 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e51727-cbff-4972-928c-0f2e4b540054")
-	)
-	(wire
-		(pts
 			(xy 135.89 59.69) (xy 135.89 66.04)
 		)
 		(stroke
@@ -1780,16 +1641,6 @@
 			(type default)
 		)
 		(uuid "439cbb87-5380-4460-96bf-4b7cb6925686")
-	)
-	(wire
-		(pts
-			(xy 147.32 121.92) (xy 147.32 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4450c003-6815-49b3-9a37-a5252b266fb4")
 	)
 	(wire
 		(pts
@@ -1880,26 +1731,6 @@
 			(type default)
 		)
 		(uuid "575971e8-3c16-4cd0-93ca-40edbf97767e")
-	)
-	(wire
-		(pts
-			(xy 241.3 68.58) (xy 243.84 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63aecc3a-d7e1-481e-95a3-01de301a4f8c")
-	)
-	(wire
-		(pts
-			(xy 166.37 114.3) (xy 166.37 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ca28c8-ff83-40be-95f3-5c82087f3f43")
 	)
 	(wire
 		(pts
@@ -2023,17 +1854,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 121.92) (xy 175.26 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ad54346-398f-4693-8119-d1f78cd4e3e5")
-	)
-	(wire
-		(pts
-			(xy 175.26 105.41) (xy 175.26 119.38)
+			(xy 175.26 105.41) (xy 175.26 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2113,17 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 119.38) (xy 166.37 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a64a78-4109-4f42-bffc-b7a527d49b38")
-	)
-	(wire
-		(pts
-			(xy 147.32 105.41) (xy 147.32 119.38)
+			(xy 147.32 105.41) (xy 147.32 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2193,16 +2004,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 119.38) (xy 173.99 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b485b516-d949-4a1a-b5aa-9c34fae30bc4")
-	)
-	(wire
-		(pts
 			(xy 213.36 91.44) (xy 213.36 96.52)
 		)
 		(stroke
@@ -2240,16 +2041,6 @@
 			(type default)
 		)
 		(uuid "c5579a40-a659-45a3-8e69-30f11ada7db3")
-	)
-	(wire
-		(pts
-			(xy 147.32 119.38) (xy 149.86 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccc83d27-ecee-4164-8d5f-e778e5b58863")
 	)
 	(wire
 		(pts
@@ -2363,16 +2154,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 119.38) (xy 167.64 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d954bf-89a4-40be-b48f-0a040eca815e")
-	)
-	(wire
-		(pts
 			(xy 59.69 105.41) (xy 91.44 105.41)
 		)
 		(stroke
@@ -2400,16 +2181,6 @@
 			(type default)
 		)
 		(uuid "f4e98306-b14b-4d8a-88b7-08f57dc49b30")
-	)
-	(wire
-		(pts
-			(xy 233.68 68.58) (xy 236.22 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6853e2e-e072-4b60-8ade-ac6df1f5dea8")
 	)
 	(wire
 		(pts
@@ -2761,72 +2532,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 175.26 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "107cc8b9-09f2-4660-91cd-d9f41c58fd49")
-		(property "Reference" "#PWR0110"
-			(at 175.26 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 175.26 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c292d8ae-fce7-428f-86c8-82c745805d85")
-		)
-		(instances
-			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 135.89 57.15 0)
 		(unit 1)
@@ -2899,141 +2604,6 @@
 			(project "motorgo_plink"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 152.4 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "247298d2-abf5-4fff-a5fd-9f5179d5664f")
-		(property "Reference" "R47"
-			(at 153.67 117.4751 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 153.67 121.9201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d66ba258-81df-4f8c-a70b-0ec8cbd55e28")
-		)
-		(pin "2"
-			(uuid "a6f44e4e-28e0-4453-ae62-262150edab2c")
-		)
-		(instances
-			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 166.37 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27753857-ddab-4b60-bdc9-201320fdd092")
-		(property "Reference" "#PWR096"
-			(at 166.37 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 166.37 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e96d2453-f723-4549-aac7-84e754d90bfc")
-		)
-		(instances
-			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -3197,72 +2767,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 144.78 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cb4851b-532c-4b8f-a698-021d2f1da6af")
-		(property "Reference" "#PWR0115"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 144.78 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55b7bd14-4523-4fe8-84d7-8507dcbaed5a")
-		)
-		(instances
-			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 59.69 119.38 180)
 		(unit 1)
@@ -3348,33 +2852,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 238.76 68.58 90)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 68.58 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5803a988-35be-4793-9d44-27332f6c3293")
-		(property "Reference" "R34"
-			(at 238.76 70.485 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R0"
-			(at 238.76 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 238.76 68.58 0)
+		(fields_autoplaced yes)
+		(uuid "527fd387-4bc9-4619-af90-5e822bd28689")
+		(property "Reference" "#PWR013"
+			(at 68.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,8 +2870,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC0402F0000TS_C2906858.html"
-			(at 238.76 68.58 0)
+		(property "Value" "GND"
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,16 +2897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_Part_Number" "C2906858"
-			(at 238.76 68.58 0)
+			(at 68.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,15 +2906,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "67ad8e7f-48f0-4600-8c6b-5e5bcbb388f4")
-		)
-		(pin "2"
-			(uuid "a0de81de-66ba-4551-b1d7-856046e9ecf0")
+			(uuid "1098c72b-cda6-4f8f-bf3c-dffa12217ba2")
 		)
 		(instances
 			(project "motorgo_plink"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "R34")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3622,72 +3115,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 68.58 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "722e58fe-5f1d-42d6-8cf5-719041a7dcbc")
-		(property "Reference" "#PWR090"
-			(at 68.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 68.58 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd301298-47ce-4c90-a41b-78500e9a3f29")
-		)
-		(instances
-			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LCSC_imports:LIS3MDLTR")
 		(at 111.76 104.14 0)
 		(unit 1)
@@ -3806,142 +3233,6 @@
 			(project "motorgo_plink"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 171.45 119.38 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c94e48d-9bf2-4cc0-886e-f2e21dad6f97")
-		(property "Reference" "R48"
-			(at 170.18 117.4751 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 170.18 121.9201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 171.45 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ea28193-d298-4d4c-930d-9aef48a5a9b4")
-		)
-		(pin "2"
-			(uuid "f8954095-e912-4084-b511-35a220268b03")
-		)
-		(instances
-			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 233.68 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97601498-b946-4111-8d7b-7b8dcdc51725")
-		(property "Reference" "#PWR0129"
-			(at 233.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 233.68 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9f0715f-6624-4691-8fc9-18dcdca584a7")
-		)
-		(instances
-			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -4105,6 +3396,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 214.63 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad599aff-5aea-4f41-a30b-7d43075c8201")
+		(property "Reference" "#PWR012"
+			(at 214.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aca4b72-0d70-4c58-890b-9bc0480484c1")
+		)
+		(instances
+			(project "motorgo_plink"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 77.47 119.38 0)
 		(mirror y)
@@ -4185,6 +3542,72 @@
 			(project "motorgo_plink"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b608e26d-9fde-4143-8622-7490b911c392")
+		(property "Reference" "#PWR048"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20382f0d-3b84-46a9-96a3-6bf528f1709f")
+		)
+		(instances
+			(project "motorgo_plink"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4323,7 +3746,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 147.32 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4331,8 +3754,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9e06fa7-19df-497c-9690-4e97abde24a2")
-		(property "Reference" "#PWR0109"
+		(uuid "b8f5ecd6-f8b2-4d88-a230-e808b25b5531")
+		(property "Reference" "#PWR08"
 			(at 147.32 137.16 0)
 			(effects
 				(font
@@ -4341,8 +3764,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 147.32 135.255 0)
+		(property "Value" "GND"
+			(at 147.32 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,78 +3800,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "df2ff1d3-807b-44a4-91eb-3144eb9b0ef5")
+			(uuid "ab38f7a8-a61d-46a2-8543-eb6a4df219fb")
 		)
 		(instances
 			(project "motorgo_plink"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 156.21 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da90ec0d-569f-4c3b-afaa-7a945c1e8245")
-		(property "Reference" "#PWR048"
-			(at 156.21 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 156.21 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f3154c3-591d-4e8e-bcbc-ed36c5c92590")
-		)
-		(instances
-			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "#PWR048")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4456,7 +3813,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 68.58 0)
+		(at 175.26 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4465,7 +3822,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec2b4f6c-10eb-4c64-9c6c-4e95d90e0018")
 		(property "Reference" "#PWR0107"
-			(at 243.84 74.93 0)
+			(at 175.26 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +3831,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 73.66 0)
+			(at 175.26 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +3839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 68.58 0)
+			(at 175.26 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +3848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 68.58 0)
+			(at 175.26 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +3857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 68.58 0)
+			(at 175.26 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,72 +3951,6 @@
 			(project "motorgo_plink"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 214.63 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9bbe9c8-103a-4b78-9256-abdfd55b4f59")
-		(property "Reference" "#PWR0116"
-			(at 214.63 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 214.63 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "362534d1-a57c-4b19-925e-ddb31a99f025")
-		)
-		(instances
-			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7d6efa12-7b94-467b-977c-f0e88b0f6fad"
-					(reference "#PWR0116")
 					(unit 1)
 				)
 			)

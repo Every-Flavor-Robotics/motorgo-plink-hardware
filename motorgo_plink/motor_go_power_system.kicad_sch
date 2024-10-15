@@ -5497,7 +5497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LCSC_parts:IND-SMD_L7.3-W6.6"
+		(property "Footprint" "kicad_lceda:IND-SMD_L6.6-W6.4_CKSTT0610"
 			(at 134.62 65.405 0)
 			(effects
 				(font
@@ -5506,7 +5506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA7050-3R3M_C2847540.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303140930_FANGCHENG-FC-ALX-6030D-3R3MT_C5370922.pdf"
 			(at 134.62 65.405 0)
 			(effects
 				(font
@@ -5524,7 +5524,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Part_Number" "C2847540"
+		(property "LCSC_Part_Number" "C5370922"
 			(at 134.62 65.405 0)
 			(effects
 				(font
@@ -5542,6 +5542,10 @@
 		(instances
 			(project "motorgo_plink"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c5a81061-28ff-4599-a380-43adb8d460db"
+					(reference "L1")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
 					(reference "L1")
 					(unit 1)
 				)

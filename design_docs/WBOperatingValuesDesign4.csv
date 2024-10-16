@@ -1,0 +1,46 @@
+﻿Name,Value,Category,Description
+Phase Marg,59.51 °,System Information,Bode Plot Phase Margin
+Cross Freq,55.92 kHz,System Information,Bode plot crossover frequency
+Low Freq Gain,72.57 dB,System Information,Gain at 1Hz
+Gain Marg,-24.05 dB,System Information,Bode Plot Gain Margin
+Vout,5.09 V,System Information,Operational Output Voltage
+IC Tolerance,8 mV,IC,IC Feedback Tolerance
+Cin IRMS,2.79 A,Capacitor,Input capacitor RMS ripple current
+Cin Pd,2.59 mW,Capacitor,Input capacitor power dissipation
+Cout IRMS,371.57 mA,Capacitor,Output capacitor RMS ripple current
+Cout Pd,419.29 µW,Capacitor,Output capacitor power dissipation
+Duty Cycle,31.42%,System Information,Duty cycle
+Efficiency,90.5%,System Information,Steady state efficiency
+Frequency,881.05 kHz,System Information,Switching frequency
+IC Tj,112.33 °C,IC,IC junction temperature
+ICThetaJA,32 °C/W,IC,IC junction-to-ambient thermal resistance
+L Ipp,1.29 A,Inductor,Peak-to-peak inductor ripple current
+L Pd,630 mW,Inductor,Inductor power dissipation
+IC Pd,2.57 W,IC,IC power dissipation
+Pout,30.53 W,System Information,Total output power
+Iin Avg,1.98 A,IC,Average input current
+IC Ipk,6.64 A,IC,Peak switch current in IC
+Mode,CCM,System Information,Conduction Mode
+Vout p-p,9.74 mV,System Information,Peak-to-peak output ripple voltage
+M Irms,3.36 A,Mosfet,MOSFET RMS current
+Vout Ripple requirement used for Cout calculations,3.00%,System Information,Custom maximum output ripple requirement that was used for Cout selection(% of Vout).
+Vin p-p,245.24 mV,System Information,Peak-to-peak input voltage
+Vin Ripple requirement used for Cin calculations,5.00%,System Information,Custom maximum input ripple requirement that was used for Cin selection(% of Minimum Vin).
+Overshoot Value,93.14 mV,System Information,Theoretical Vout Overshoot Value
+Undershoot Value,115.92 mV,System Information,Theoretical Vout Undershoot Value
+Vout transient requirement used for Cout calculations,5.00%,System Information,Custom Transient voltage change requirement that was used for Cout selection (% of Vout).
+Iout transient step used for Cout calculations,3 A,System Information,Custom Transient current step requirement that was used for Cout selection (A).
+Minimum Cout required for stability,17.75 uF,System Information,Minimum Cout required for stability
+IC Iq Pd,10.2 mW,IC,IC Iq Pd
+Total Pd,3.21 W,Power,Total Power Dissipation
+FootPrint,622 mm²,System Information,Total Foot Print Area of BOM components
+Vin,17 V,System Information,Vin operating point
+Iout,6 A,System Information,Iout operating point
+Cin Pd,2.59 mW,Power,Input capacitor power dissipation
+Cout Pd,419.29 µW,Power,Output capacitor power dissipation
+L Pd,630 mW,Power,Inductor power dissipation
+IC Pd,2.57 W,Power,IC power dissipation
+Vout Actual,5.09 V,System Information,Vout Actual calculated based on selected voltage divider resistors
+Vout Tolerance,2.72%,System Information,Vout Tolerance based on IC Tolerance (no load) and voltage divider resistors if applicable
+Total BOM,$4.91,System Information,Total BOM Cost
+BOM Count,17 ,System Information,Total Design BOM count

@@ -5232,7 +5232,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8c780438-69ef-4e33-add1-1c664766354e")
+		(uuid "8c780438-69ef-4e33-add1-1c664766354f")
 	)
 	(wire
 		(pts
@@ -6341,6 +6341,7 @@
 	)
 	(label "connectors.enc1.cs"
 		(at 129.54 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6373,6 +6374,7 @@
 	)
 	(label "connectors.enc2.cs"
 		(at 129.54 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7957,7 +7959,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C409700"
+		(property "LCSC_Part_Number" "C25905"
 			(at 114.935 147.955 0)
 			(effects
 				(font
@@ -8306,7 +8308,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C409700"
+		(property "LCSC_Part_Number" "C25905"
 			(at 167.64 29.21 0)
 			(effects
 				(font
@@ -8393,7 +8395,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C409700"
+		(property "LCSC_Part_Number" "C25905"
 			(at 183.515 29.21 0)
 			(effects
 				(font
@@ -8743,7 +8745,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C2906899"
+		(property "LCSC_Part_Number" "C11702"
 			(at 25.4 175.26 0)
 			(effects
 				(font
@@ -9286,7 +9288,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C2906899"
+		(property "LCSC_Part_Number" "C11702"
 			(at 43.18 175.26 0)
 			(effects
 				(font
@@ -10733,7 +10735,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C409700"
+		(property "LCSC_Part_Number" "C25905"
 			(at 114.935 145.415 0)
 			(effects
 				(font
@@ -11369,7 +11371,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C2906899"
+		(property "LCSC_Part_Number" "C11702"
 			(at 34.29 175.26 0)
 			(effects
 				(font

@@ -5522,7 +5522,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C409700"
+		(property "LCSC_Part_Number" "C25905"
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -5899,7 +5899,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C409700"
+		(property "LCSC_Part_Number" "C25905"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -6344,7 +6344,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C409700"
+		(property "LCSC_Part_Number" "C25905"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -7096,7 +7096,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC_Part_Number" "C409700"
+		(property "LCSC_Part_Number" "C25905"
 			(at 97.79 49.53 0)
 			(effects
 				(font

@@ -2027,7 +2027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "040d7dfb-b4c9-48e1-bba7-d295cbd8328c")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 142.24 76.2 0)
 			(effects
 				(font
@@ -2150,20 +2150,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "U4")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "U3")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "U5")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "U4")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "U9")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2179,7 +2179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "176c5a0c-4fc4-4921-9705-6483ace9c759")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 168.275 76.835 0)
 			(effects
 				(font
@@ -2224,7 +2224,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Part_Number" "C2906885"
+		(property "LCSC_Part_Number" "C25744"
 			(at 166.37 77.47 0)
 			(effects
 				(font
@@ -2241,20 +2241,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "R11")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "R15")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "R13")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "R37")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2269,7 +2269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d17d84b-e3ea-46f0-b18f-06feada396be")
-		(property "Reference" "Rp2"
+		(property "Reference" "Rp3"
 			(at 114.3 120.015 0)
 			(effects
 				(font
@@ -2331,20 +2331,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "Rp2")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "Rp1")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "Rp3")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "Rp2")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "Rp4")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "Rp1")
 					(unit 1)
 				)
 			)
@@ -2360,7 +2360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f557ed6-4f49-43a3-a7f7-7770a7df9f32")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR055"
 			(at 166.37 77.47 0)
 			(effects
 				(font
@@ -2409,20 +2409,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "#PWR045")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "#PWR035")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "#PWR055")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "#PWR045")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2437,7 +2437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "379278c5-9c7b-483f-a6c5-d908834ce479")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 165.735 102.2413 0)
 			(effects
 				(font
@@ -2499,20 +2499,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "C8")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "C4")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "C12")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "C8")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "C27")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2527,7 +2527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b023fe4-9605-4f71-b1e3-641490966c63")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR054"
 			(at 160.02 87.63 0)
 			(effects
 				(font
@@ -2576,20 +2576,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "#PWR044")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "#PWR034")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "#PWR054")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "#PWR044")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2604,7 +2604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "508d744b-f932-47ae-b884-35aa0778b9a4")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR050"
 			(at 119.38 132.08 0)
 			(effects
 				(font
@@ -2653,20 +2653,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "#PWR040")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "#PWR030")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "#PWR050")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "#PWR040")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2681,7 +2681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64bc4ea0-b5b3-43dd-b60f-6b4953a2aebe")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 180.34 106.0513 0)
 			(effects
 				(font
@@ -2743,20 +2743,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "C10")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "C6")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "C14")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "C10")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "C29")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2771,7 +2771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72c09545-4ca7-4503-ace3-faf335195a69")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR057"
 			(at 177.8 115.57 0)
 			(effects
 				(font
@@ -2820,20 +2820,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "#PWR047")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "#PWR037")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "#PWR057")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "#PWR047")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2848,7 +2848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cd15de6-e6de-450c-b049-125807b31cfd")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 165.735 96.5263 0)
 			(effects
 				(font
@@ -2910,20 +2910,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "C7")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "C11")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "C7")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "C26")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2939,7 +2939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8188c882-9f34-4bb8-8b65-75b222386376")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 113.665 83.185 0)
 			(effects
 				(font
@@ -2984,7 +2984,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Part_Number" "C2906885"
+		(property "LCSC_Part_Number" "C25744"
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -3001,20 +3001,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "R10")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "R14")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "R12")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "R36")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3029,7 +3029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8addbfdc-dc1c-4aaf-a871-b872afa78ad1")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR053"
 			(at 158.75 93.98 0)
 			(effects
 				(font
@@ -3078,20 +3078,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "#PWR043")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "#PWR033")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "#PWR053")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "#PWR043")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3106,7 +3106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d92cbc0-1c57-4411-9bf6-43fc622e5c69")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR052"
 			(at 154.94 113.03 0)
 			(effects
 				(font
@@ -3155,20 +3155,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "#PWR042")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "#PWR032")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "#PWR052")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "#PWR042")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3183,7 +3183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93a5f891-ba96-4953-a012-4746ecd24fdd")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR056"
 			(at 177.8 101.6 0)
 			(effects
 				(font
@@ -3232,20 +3232,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "#PWR046")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "#PWR036")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "#PWR056")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "#PWR046")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3260,7 +3260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a366d253-12e5-465c-86a2-420bd17e6d2b")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 172.085 86.3663 0)
 			(effects
 				(font
@@ -3322,20 +3322,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "C9")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "C5")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "C13")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "C9")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "C28")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3351,7 +3351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9d21dad-d9c3-4014-a8b0-53a9ae0bab50")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR049"
 			(at 111.76 81.28 0)
 			(effects
 				(font
@@ -3400,20 +3400,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "#PWR029")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "#PWR049")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "#PWR039")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ced242a7-89fe-4d89-94e3-2de58c09317f")
-		(property "Reference" "J8"
+		(property "Reference" "J10"
 			(at 190.5 127.635 0)
 			(effects
 				(font
@@ -3474,7 +3474,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Part_Number" "C7430358"
+		(property "LCSC_Part_Number" " C722716"
 			(at 189.23 129.54 0)
 			(effects
 				(font
@@ -3491,20 +3491,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "J8")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "J6")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "J10")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "J8")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "J22")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3520,7 +3520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d47ac2a2-4d28-4f93-8420-bd80765c7ab8")
-		(property "Reference" "Rmode2"
+		(property "Reference" "Rmode3"
 			(at 125.73 120.015 0)
 			(effects
 				(font
@@ -3582,20 +3582,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "Rmode2")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "Rmode1")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "Rmode3")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "Rmode2")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "Rmode4")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "Rmode1")
 					(unit 1)
 				)
 			)
@@ -3610,7 +3610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db9b2919-22e0-4b7d-a376-e624ae55ee25")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0120"
 			(at 107.95 97.79 0)
 			(effects
 				(font
@@ -3659,20 +3659,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "#PWR064")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "#PWR0120")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "#PWR0119")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "#PWR0121")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3687,7 +3687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef5fafba-f22d-4b93-8b6a-68de9e7cf633")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR051"
 			(at 123.19 132.08 0)
 			(effects
 				(font
@@ -3736,20 +3736,20 @@
 		)
 		(instances
 			(project "motorgo_plink"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
-					(reference "#PWR041")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
-					(reference "#PWR031")
-					(unit 1)
-				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1c707bfd-41ae-4cae-875a-703c10e57ff5"
 					(reference "#PWR051")
 					(unit 1)
 				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/47ec5f88-3723-4b64-bf75-8726c250fd67"
+					(reference "#PWR041")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4afe8fbd-60dc-4560-bdae-30691fd6b471"
 					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/809f09f1-433b-4e98-96ef-90e5b5350895"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

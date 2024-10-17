@@ -4000,7 +4000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 1mOhm"
+		(property "Value" "4.7uF 1mOhm"
 			(at 32.004 78.486 0)
 			(effects
 				(font
@@ -4144,7 +4144,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.02k"
+		(property "Value" "3.92k"
 			(at 81.28 98.425 0)
 			(effects
 				(font
@@ -4222,7 +4222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16nF 0Ohm"
+		(property "Value" "6.8nf"
 			(at 75.057 108.839 0)
 			(effects
 				(font
@@ -4903,7 +4903,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 1mOhm"
+		(property "Value" "4.7uF 1mOhm"
 			(at 32.004 80.518 0)
 			(effects
 				(font
@@ -5191,7 +5191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30pF 0Ohm"
+		(property "Value" "68pf"
 			(at 90.805 106.68 0)
 			(effects
 				(font
@@ -5489,7 +5489,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3uH 14.3mOhm"
+		(property "Value" "2.2uH 12.7mOhm"
 			(at 135.255 63.5 90)
 			(effects
 				(font
@@ -5524,7 +5524,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Part_Number" "C5370922"
+		(property "LCSC_Part_Number" "C5440776"
 			(at 134.62 65.405 0)
 			(effects
 				(font
@@ -5924,7 +5924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 1mOhm"
+		(property "Value" "4.7uF 1mOhm"
 			(at 32.004 76.454 0)
 			(effects
 				(font

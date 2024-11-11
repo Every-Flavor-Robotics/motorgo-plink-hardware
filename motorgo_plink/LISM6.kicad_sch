@@ -2375,7 +2375,7 @@
 		)
 		(uuid "1dade7d9-e061-487c-af0a-a177d1e0d056")
 	)
-	(label "SDA_acc"
+	(label "SCL_acc"
 		(at 203.2 87.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2384,7 +2384,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "20f68a5f-5699-4dc0-aa6d-7e26b9012ab1")
+		(uuid "25e0ee4c-07bd-4de9-aea1-ca7c47bf0d55")
 	)
 	(label "SCL_acc"
 		(at 144.78 66.04 0)
@@ -2396,6 +2396,17 @@
 			(justify left bottom)
 		)
 		(uuid "28ce3495-7b88-43e4-8c68-92ee722b2f14")
+	)
+	(label "SDA_acc"
+		(at 203.2 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4014de26-d20b-4a8b-be91-a104bc868392")
 	)
 	(label "SCL{slash}SPC_mag"
 		(at 82.55 97.79 180)
@@ -2429,17 +2440,6 @@
 			(justify left bottom)
 		)
 		(uuid "e483f4b2-b9cd-46f9-8b3d-e5b4f64520c3")
-	)
-	(label "SCL_acc"
-		(at 203.2 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef3da7b2-b9a9-4666-95f8-4aa02d527ae5")
 	)
 	(hierarchical_label "SDA"
 		(shape input)

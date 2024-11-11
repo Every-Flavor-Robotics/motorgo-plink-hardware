@@ -9384,7 +9384,7 @@
 			(uuid "75552121-7ca7-47c3-a829-f26bbb117325")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "7dfdd665-c8e7-46d8-8389-ebdbf9c7247e")
 			(effects
@@ -9439,6 +9439,7 @@
 			(uuid "696f243f-6827-4613-98f5-eda8e4f02217")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+			(opacity 0.0000)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9674,7 +9675,7 @@
 			(uuid "181d5901-5dad-4a19-b8e2-e70835eb7cd4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "918e6ec6-1680-4ab7-85f5-12d233fa463d")
 			(effects
@@ -9729,6 +9730,7 @@
 			(uuid "812276e5-e53b-43e9-befb-5f4c4881e1e8")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+			(opacity 0.0000)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14739,6 +14741,7 @@
 			(uuid "27f5bbf2-20dd-4595-a2fb-593a2a526b93")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+			(opacity 0.0000)
 			(offset
 				(xyz 0 0 0)
 			)

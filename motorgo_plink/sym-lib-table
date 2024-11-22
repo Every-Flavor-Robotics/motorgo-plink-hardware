@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "easyeda")(type "KiCad")(uri "X:/motorgo/motorgo-plink-hardware/LCSC_parts/kicad_lceda.kicad_sym")(options "")(descr ""))
+)

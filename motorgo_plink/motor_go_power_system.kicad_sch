@@ -3439,6 +3439,16 @@
 		)
 		(uuid "d0ec157e-0311-460e-9360-db35f9268062")
 	)
+	(text "10A\n10v"
+		(exclude_from_sim no)
+		(at 173.228 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43d7d807-1fe9-48e4-bfc1-505e5be2411b")
+	)
 	(text "Battery -> 5v rail"
 		(exclude_from_sim no)
 		(at 39.37 49.53 0)
@@ -4422,7 +4432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.3252 109.22 0)
 			(effects
 				(font
@@ -5018,10 +5028,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "977798e8-efdb-4e72-a865-5ab2f851b398")
 		(property "Reference" "D4"
-			(at 172.72 57.1499 90)
+			(at 171.958 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Schottky_SB1045L_C908747"
+		(property "Value" "Schottky_SB1045L_C908747 10A"
 			(at 172.72 59.6899 90)
 			(effects
 				(font
@@ -5057,7 +5066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High amps for whole 5V rail"
 			(at 168.91 58.42 0)
 			(effects
 				(font
@@ -5077,6 +5086,15 @@
 		)
 		(property "uuid" "std:209a628ebac24c2f8df90420eba7d942"
 			(at 159.004 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part_Number" "C908747"
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.2152 109.22 0)
 			(effects
 				(font
@@ -5772,7 +5790,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uH 12.7mOhm"
+		(property "Value" "2.2uH 12.7mOhm C5440776"
 			(at 141.605 62.865 90)
 			(effects
 				(font
@@ -6294,7 +6312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.3552 105.41 0)
 			(effects
 				(font

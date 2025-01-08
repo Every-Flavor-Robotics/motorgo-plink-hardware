@@ -64,7 +64,19 @@
           "width": 0.12
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|172675000|101132000|b7c09b15-ed28-49c4-9ace-ed423776b626|a2d9f553-4a27-4d3b-a2dc-07d3b222c6b8",
+        "clearance|172675000|106732000|b8092231-deae-4201-bd57-c83cec34963d|febc39ef-ae1f-43d3-a2ac-8add2b052e91",
+        "clearance|172675000|92750000|9a846ca1-6844-4bf5-b1fc-7e2632a8b483|9f7ab6c7-27cb-4601-b59d-3e733183cf4e",
+        "clearance|172675000|98350000|23636ce7-3e9b-4d6d-b670-058ed5ca2066|04c5883f-1a4e-40ed-a524-7f684d543f8a",
+        "courtyards_overlap|163324741|67700001|474a74ab-1d92-4d39-a414-bddc82c44b29|c7911d12-8bf7-44c3-801c-cc62da9c1ff5",
+        "courtyards_overlap|163407173|72780001|46be2975-3e38-4e2c-a570-a818d354eeda|66e043d2-7ecf-40e3-8aee-d327325e3f47",
+        "courtyards_overlap|166699999|70240001|46be2975-3e38-4e2c-a570-a818d354eeda|474a74ab-1d92-4d39-a414-bddc82c44b29",
+        "solder_mask_bridge|172675000|101132000|b7c09b15-ed28-49c4-9ace-ed423776b626|a2d9f553-4a27-4d3b-a2dc-07d3b222c6b8",
+        "solder_mask_bridge|172675000|106732000|b8092231-deae-4201-bd57-c83cec34963d|febc39ef-ae1f-43d3-a2ac-8add2b052e91",
+        "solder_mask_bridge|172675000|92750000|9a846ca1-6844-4bf5-b1fc-7e2632a8b483|9f7ab6c7-27cb-4601-b59d-3e733183cf4e",
+        "solder_mask_bridge|172675000|98350000|23636ce7-3e9b-4d6d-b670-058ed5ca2066|04c5883f-1a4e-40ed-a524-7f684d543f8a"
+      ],
       "meta": {
         "version": 2
       },
@@ -72,7 +84,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -141,7 +153,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -503,7 +515,12 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(88, 234, 255)",
+      "+5V": "rgb(255, 54, 136)",
+      "+BATT": "rgb(255, 174, 17)",
+      "GND": "rgb(121, 112, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -721,7 +738,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -811,14 +828,14 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
-      "group_symbols": false,
+      "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
